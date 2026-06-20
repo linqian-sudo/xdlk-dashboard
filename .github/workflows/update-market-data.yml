@@ -1,4 +1,5 @@
 name: Update market data
+# Refreshes the cached quote file for the static GitHub Pages dashboard.
 
 on:
   workflow_dispatch:
