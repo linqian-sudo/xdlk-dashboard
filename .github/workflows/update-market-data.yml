@@ -1,0 +1,25 @@
+name: Update market data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "45 8 * * 1-5"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Fetch latest quote
+        run: node scripts/update-market-data.mjs
+      - name: Commit quote data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update 688582 market data"
+          file_pattern: "data/quote.json data/quote-history.json"

@@ -1,0 +1,27 @@
+{
+  "source": "Tencent quote API",
+  "updatedAt": "2026-06-18T16:14:45+08:00",
+  "quote": {
+    "name": "芯动联科",
+    "code": "688582",
+    "tradeTime": "2026-06-18 16:14:45",
+    "price": 60.5,
+    "prevClose": 60.76,
+    "open": 60.6,
+    "high": 62,
+    "low": 59.8,
+    "change": -0.26,
+    "changePct": -0.43,
+    "volumeShares": 9782452,
+    "amountYi": 5.9688,
+    "turnover": 3.91,
+    "peTtm": 92.91,
+    "pb": 10.04,
+    "marketCapYi": 243.05,
+    "floatMarketCapYi": 151.38,
+    "high52w": 88.65,
+    "low52w": 43.21,
+    "totalShares": 401739056,
+    "floatShares": 250219056
+  }
+}

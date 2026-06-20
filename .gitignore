@@ -1,0 +1,9 @@
+.python-packages/
+output/
+*.xlsx
+*交易记录*.csv
+*投资记录*.csv
+*.log
+node_modules/
+.DS_Store
+Thumbs.db

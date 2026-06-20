@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>芯动联科长期投资看板</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <main class="shell">
+    <header class="hero">
+      <div>
+        <div class="eyebrow">688582.SH · 芯动联科 · 每日行情监控</div>
+        <h1>芯动联科长期投资看板</h1>
+        <p class="lead">把“好公司”与“好买点”分开跟踪：行情每天更新，估值自动重算，仓位纪律围绕业绩恢复、解禁压力和产品量产证据展开。</p>
+      </div>
+      <div class="status-card">
+        <span class="status-label">当前投资姿态</span>
+        <strong id="actionPosture">等待验证 / 分批观察</strong>
+        <small>不构成投资建议，仅作研究跟踪。</small>
+      </div>
+    </header>
+
+    <section class="toolbar">
+      <div>
+        <strong id="quoteName">芯动联科</strong>
+        <span id="quoteStamp">读取行情中...</span>
+      </div>
+      <div class="toolbar-actions">
+        <button id="refreshButton" type="button">重新读取数据</button>
+        <a href="芯动联科_长期投资分析_2026-06-20.html">查看完整分析报告</a>
+      </div>
+    </section>
+
+    <section class="metric-grid">
+      <article class="metric main">
+        <span>最新价</span>
+        <strong id="lastPrice">--</strong>
+        <small id="priceChange">--</small>
+      </article>
+      <article class="metric">
+        <span>总市值</span>
+        <strong id="marketCap">--</strong>
+        <small>用于估值重算</small>
+      </article>
+      <article class="metric">
+        <span>PE(TTM)</span>
+        <strong id="peTtm">--</strong>
+        <small id="peSource">行情源口径</small>
+      </article>
+      <article class="metric">
+        <span>PB</span>
+        <strong id="pb">--</strong>
+        <small>资产轻，高 PB 需增长支撑</small>
+      </article>
+      <article class="metric">
+        <span>成交额</span>
+        <strong id="amount">--</strong>
+        <small id="turnover">--</small>
+      </article>
+      <article class="metric">
+        <span>52 周区间</span>
+        <strong id="range52w">--</strong>
+        <small id="rangePosition">--</small>
+      </article>
+    </section>
+
+    <section class="dashboard-grid">
+      <article class="panel">
+        <div class="panel-head">
+          <h2>估值温度</h2>
+          <span id="valuationBadge" class="badge warn">待计算</span>
+        </div>
+        <div class="bars">
+          <div>
+            <div class="bar-label"><span>静态 PE</span><strong id="staticPe">--</strong></div>
+            <div class="bar"><i id="staticPeBar"></i></div>
+          </div>
+          <div>
+            <div class="bar-label"><span>TTM PS</span><strong id="psTtm">--</strong></div>
+            <div class="bar"><i id="psTtmBar"></i></div>
+          </div>
+          <div>
+            <div class="bar-label"><span>隐含净利要求</span><strong id="impliedProfit">--</strong></div>
+            <div class="bar"><i id="impliedProfitBar"></i></div>
+          </div>
+        </div>
+        <p id="valuationRead" class="readout">正在根据最新行情重算估值。</p>
+      </article>
+
+      <article class="panel">
+        <div class="panel-head">
+          <h2>仓位纪律</h2>
+          <span class="badge neutral">50 万计划</span>
+        </div>
+        <div class="allocation">
+          <div><b>20%-30%</b><span>观察仓</span><small>解禁压力释放后再启动</small></div>
+          <div><b>30%-40%</b><span>验证仓</span><small>Q2/Q3 收入和扣非恢复</small></div>
+          <div><b>20%-30%</b><span>进攻仓</span><small>IMU/三轴陀螺量产兑现</small></div>
+          <div><b>10%-20%</b><span>现金</span><small>留给波动和纠错</small></div>
+        </div>
+      </article>
+    </section>
+
+    <section class="dashboard-grid wide-left">
+      <article class="panel">
+        <div class="panel-head">
+          <h2>核心监控信号</h2>
+          <span class="badge warn">等待中报验证</span>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <th>监控项</th>
+              <th>当前状态</th>
+              <th>加仓触发</th>
+              <th>减仓/暂停触发</th>
+            </tr>
+          </thead>
+          <tbody id="signalRows"></tbody>
+        </table>
+      </article>
+
+      <article class="panel">
+        <div class="panel-head">
+          <h2>风险雷达</h2>
+          <span id="riskBadge" class="badge bad">高关注</span>
+        </div>
+        <ul id="riskList" class="risk-list"></ul>
+      </article>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>投资备忘</h2>
+        <span class="badge neutral">长期跟踪</span>
+      </div>
+      <div class="memo-grid">
+        <div>
+          <h3>公司 thesis</h3>
+          <p>高性能 MEMS 惯性传感器国产替代，技术稀缺、毛利率高，长期看低空经济、商业航天、自动驾驶和工业智能化带来增量。</p>
+        </div>
+        <div>
+          <h3>股票 thesis</h3>
+          <p>当前市值已经支付较高成长溢价。股票要继续有效，需要 2026 年后续季度证明 Q1 下滑只是客户节奏扰动，而不是需求或政策拐点。</p>
+        </div>
+        <div>
+          <h3>下一次复盘</h3>
+          <p>重点看 2026 半年报、6 月底限售股解禁后的减持公告、三轴陀螺/六轴 IMU 进度，以及大客户订单恢复情况。</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>数据源：腾讯行情接口经 GitHub Actions 每个交易日收盘后更新；若接口不可用，看板保留最近一次成功数据。</p>
+      <p>最后页面版本：2026-06-20。公开行情可能延迟或缺失，所有结论需结合公告与个人风险承受能力再判断。</p>
+    </footer>
+  </main>
+  <script src="assets/app.js"></script>
+</body>
+</html>
