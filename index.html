@@ -3,173 +3,116 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>芯动联科长期投资看板</title>
+  <title>米法的自选股</title>
   <link rel="stylesheet" href="assets/styles.css" />
 </head>
 <body>
   <main class="shell">
     <header class="hero">
       <div>
-        <div class="eyebrow">688582.SH · 芯动联科 · 每日行情与操作纪律</div>
-        <h1>芯动联科长期投资看板</h1>
-        <p class="lead">把“好公司”与“好买点”分开跟踪：行情每天更新，走势图自动重算，操作建议按趋势、关键点和仓位纪律给出。</p>
+        <div class="eyebrow">A 股自选股 · 趋势跟踪 · 风险预警</div>
+        <h1>米法的自选股</h1>
+        <p class="lead">同时跟踪多个自选股标的：每日更新行情和日 K 线，自动分析图表走势、关键点、均线结构、估值温度与风险预警。</p>
       </div>
       <div class="status-card">
-        <span class="status-label">当前投资姿态</span>
-        <strong id="actionPosture">等待数据加载</strong>
-        <small>研究跟踪信号，不构成收益承诺。</small>
+        <span class="status-label">组合风险状态</span>
+        <strong id="portfolioStatus">等待数据加载</strong>
+        <small id="portfolioNote">研究跟踪信号，不构成收益承诺。</small>
       </div>
     </header>
 
     <section class="toolbar">
       <div>
-        <strong id="quoteName">芯动联科</strong>
-        <span id="quoteStamp">读取行情中...</span>
+        <strong id="projectName">米法的自选股</strong>
+        <span id="dataStamp">读取自选股数据中...</span>
       </div>
       <div class="toolbar-actions">
         <button id="refreshButton" type="button">重新读取数据</button>
-        <a href="芯动联科_长期投资分析_2026-06-20.html">查看完整分析报告</a>
+        <a href="芯动联科_长期投资分析_2026-06-20.html">芯动联科深度报告</a>
       </div>
     </section>
 
-    <section class="metric-grid">
-      <article class="metric main">
-        <span>最新价</span>
-        <strong id="lastPrice">--</strong>
-        <small id="priceChange">--</small>
+    <section class="portfolio-strip">
+      <article class="portfolio-metric">
+        <span>自选股数量</span>
+        <strong id="stockCount">--</strong>
+        <small>配置在 data/watchlist.json</small>
       </article>
-      <article class="metric">
-        <span>总市值</span>
-        <strong id="marketCap">--</strong>
-        <small>用于估值重算</small>
+      <article class="portfolio-metric">
+        <span>高风险预警</span>
+        <strong id="highRiskCount">--</strong>
+        <small>趋势破位、深回撤等</small>
       </article>
-      <article class="metric">
-        <span>PE(TTM)</span>
-        <strong id="peTtm">--</strong>
-        <small>行情源口径</small>
+      <article class="portfolio-metric">
+        <span>临近/突破关键点</span>
+        <strong id="setupCount">--</strong>
+        <small>利弗莫尔式观察窗口</small>
       </article>
-      <article class="metric">
-        <span>PB</span>
-        <strong id="pb">--</strong>
-        <small>资产轻，高 PB 需增长支撑</small>
-      </article>
-      <article class="metric">
-        <span>成交额</span>
-        <strong id="amount">--</strong>
-        <small id="turnover">--</small>
-      </article>
-      <article class="metric">
-        <span>52 周区间</span>
-        <strong id="range52w">--</strong>
-        <small id="rangePosition">--</small>
+      <article class="portfolio-metric">
+        <span>数据时间</span>
+        <strong id="latestTradeDate">--</strong>
+        <small>按最新行情快照</small>
       </article>
     </section>
 
-    <section class="panel chart-panel">
-      <div class="panel-head">
-        <div>
-          <h2>价格走势图</h2>
-          <p class="subtle">收盘价、10 日均线、20 日均线；数据来自公开日 K 线，自动更新。</p>
-        </div>
-        <span id="trendBadge" class="badge neutral">等待计算</span>
+    <section>
+      <div class="section-head">
+        <h2>自选股列表</h2>
+        <span class="subtle">点击任意标的查看走势图、趋势分析和风险预警。</span>
       </div>
-      <div id="priceChart" class="chart"></div>
-      <div class="chart-legend">
-        <span><i class="close-line"></i>收盘价</span>
-        <span><i class="ma10-line"></i>MA10</span>
-        <span><i class="ma20-line"></i>MA20</span>
-        <span id="chartRange">--</span>
-      </div>
+      <div id="watchlistGrid" class="watchlist-grid"></div>
     </section>
 
-    <section class="dashboard-grid">
-      <article class="panel">
+    <section class="detail-layout">
+      <article class="panel chart-panel">
         <div class="panel-head">
-          <h2>当前走势分析</h2>
-          <span id="setupBadge" class="badge warn">待计算</span>
+          <div>
+            <h2 id="detailTitle">图表走势</h2>
+            <p id="detailSubtitle" class="subtle">收盘价、MA10、MA20；自动更新。</p>
+          </div>
+          <span id="trendBadge" class="badge neutral">等待计算</span>
         </div>
-        <div class="trend-grid">
-          <div><span>5 日涨跌</span><strong id="ret5">--</strong></div>
-          <div><span>20 日涨跌</span><strong id="ret20">--</strong></div>
-          <div><span>MA10 / MA20</span><strong id="maState">--</strong></div>
-          <div><span>20 日关键区间</span><strong id="pivotRange">--</strong></div>
+        <div id="priceChart" class="chart"></div>
+        <div class="chart-legend">
+          <span><i class="close-line"></i>收盘价</span>
+          <span><i class="ma10-line"></i>MA10</span>
+          <span><i class="ma20-line"></i>MA20</span>
+          <span id="chartRange">--</span>
         </div>
-        <p id="trendRead" class="readout">正在根据历史走势生成分析。</p>
       </article>
 
-      <article class="panel">
+      <aside class="panel">
         <div class="panel-head">
-          <h2>利弗莫尔式操作建议</h2>
+          <h2>当前信号</h2>
           <span id="livermoreBadge" class="badge neutral">规则信号</span>
         </div>
         <div class="decision-box">
           <strong id="livermoreAction">等待计算</strong>
-          <p id="livermoreReason">看板会依据关键点突破、趋势确认、回撤止损和分批加码原则生成规则化建议。</p>
+          <p id="livermoreReason">按趋势、关键点、回撤防守和成交量确认生成规则化建议。</p>
         </div>
-        <ul id="livermoreRules" class="rule-list"></ul>
-      </article>
+        <div class="trend-grid compact">
+          <div><span>5 日涨跌</span><strong id="ret5">--</strong></div>
+          <div><span>20 日涨跌</span><strong id="ret20">--</strong></div>
+          <div><span>MA10 / MA20</span><strong id="maState">--</strong></div>
+          <div><span>20 日区间</span><strong id="pivotRange">--</strong></div>
+        </div>
+      </aside>
     </section>
 
     <section class="dashboard-grid">
       <article class="panel">
         <div class="panel-head">
-          <h2>估值温度</h2>
-          <span id="valuationBadge" class="badge warn">待计算</span>
+          <h2>走势分析</h2>
+          <span id="setupBadge" class="badge warn">待计算</span>
         </div>
-        <div class="bars">
-          <div>
-            <div class="bar-label"><span>静态 PE</span><strong id="staticPe">--</strong></div>
-            <div class="bar"><i id="staticPeBar"></i></div>
-          </div>
-          <div>
-            <div class="bar-label"><span>TTM PS</span><strong id="psTtm">--</strong></div>
-            <div class="bar"><i id="psTtmBar"></i></div>
-          </div>
-          <div>
-            <div class="bar-label"><span>隐含净利要求</span><strong id="impliedProfit">--</strong></div>
-            <div class="bar"><i id="impliedProfitBar"></i></div>
-          </div>
-        </div>
-        <p id="valuationRead" class="readout">正在根据最新行情重算估值。</p>
+        <p id="trendRead" class="readout">正在根据历史走势生成分析。</p>
+        <ul id="operationRules" class="rule-list"></ul>
       </article>
 
       <article class="panel">
         <div class="panel-head">
-          <h2>仓位纪律</h2>
-          <span class="badge neutral">50 万计划</span>
-        </div>
-        <div class="allocation">
-          <div><b>20%-30%</b><span>观察仓</span><small>只在关键点确认后试探</small></div>
-          <div><b>30%-40%</b><span>验证仓</span><small>Q2/Q3 收入和扣非恢复</small></div>
-          <div><b>20%-30%</b><span>进攻仓</span><small>盈利后顺势加码，不摊低成本</small></div>
-          <div><b>10%-20%</b><span>现金</span><small>留给波动、回撤和纠错</small></div>
-        </div>
-      </article>
-    </section>
-
-    <section class="dashboard-grid wide-left">
-      <article class="panel">
-        <div class="panel-head">
-          <h2>核心监控信号</h2>
-          <span class="badge warn">等待中报验证</span>
-        </div>
-        <table>
-          <thead>
-            <tr>
-              <th>监控项</th>
-              <th>当前状态</th>
-              <th>加仓触发</th>
-              <th>减仓/暂停触发</th>
-            </tr>
-          </thead>
-          <tbody id="signalRows"></tbody>
-        </table>
-      </article>
-
-      <article class="panel">
-        <div class="panel-head">
-          <h2>风险雷达</h2>
-          <span id="riskBadge" class="badge bad">高关注</span>
+          <h2>风险预警</h2>
+          <span id="riskBadge" class="badge neutral">等待计算</span>
         </div>
         <ul id="riskList" class="risk-list"></ul>
       </article>
@@ -177,28 +120,28 @@
 
     <section class="panel">
       <div class="panel-head">
-        <h2>投资备忘</h2>
-        <span class="badge neutral">长期跟踪</span>
+        <h2>自选股管理说明</h2>
+        <span class="badge neutral">可扩展</span>
       </div>
       <div class="memo-grid">
         <div>
-          <h3>公司 thesis</h3>
-          <p>高性能 MEMS 惯性传感器国产替代，技术稀缺、毛利率高，长期看低空经济、商业航天、自动驾驶和工业智能化带来增量。</p>
+          <h3>如何添加标的</h3>
+          <p>在 <code>data/watchlist.json</code> 里增加股票代码、市场、名称和关注理由。每日更新脚本会自动批量抓取行情和 K 线。</p>
         </div>
         <div>
-          <h3>股票 thesis</h3>
-          <p>当前市值已经支付较高成长溢价。股票要继续有效，需要 2026 年后续季度证明 Q1 下滑只是客户节奏扰动，而不是需求或政策拐点。</p>
+          <h3>预警逻辑</h3>
+          <p>当前预警覆盖趋势破位、60 日深回撤、估值过热、放量下跌、短线涨幅过快，以及每只股票配置的个性化风险。</p>
         </div>
         <div>
-          <h3>下一次复盘</h3>
-          <p>重点看 2026 半年报、6 月底限售股解禁后的减持公告、三轴陀螺/六轴 IMU 进度，以及大客户订单恢复情况。</p>
+          <h3>操作纪律</h3>
+          <p>利弗莫尔式规则强调关键点突破后试探、盈利后顺势加码、跌破防守线止损，不用下跌摊平来对抗趋势。</p>
         </div>
       </div>
     </section>
 
     <footer>
       <p>数据源：腾讯行情快照与东方财富公开日 K 线，经 GitHub Actions 每个交易日收盘后更新；若接口不可用，看板保留最近一次成功数据。</p>
-      <p>利弗莫尔规则仅用于纪律化跟踪，不等同于个性化投资建议。重大资金操作仍需结合账户风险、流动性、公告和个人投资期限判断。</p>
+      <p>本看板只用于研究跟踪，不构成个性化投资建议、收益承诺或法律/税务意见。</p>
     </footer>
   </main>
   <script src="assets/app.js"></script>

@@ -130,6 +130,107 @@ button:hover { background: #dcebf7; }
   margin-bottom: 16px;
 }
 
+.portfolio-strip {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.portfolio-metric {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.portfolio-metric span,
+.stock-code,
+.stock-meta {
+  display: block;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.portfolio-metric strong {
+  display: block;
+  margin: 6px 0 3px;
+  font-size: 24px;
+}
+
+.portfolio-metric small {
+  color: var(--muted);
+}
+
+.section-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 18px 0 12px;
+}
+
+.watchlist-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.stock-card {
+  text-align: left;
+  border: 1px solid var(--line);
+  background: var(--panel);
+  border-radius: 8px;
+  padding: 14px;
+  color: var(--ink);
+  min-height: 148px;
+}
+
+.stock-card:hover,
+.stock-card.selected {
+  border-color: #9ebfdb;
+  background: #f7fbff;
+}
+
+.stock-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.stock-top b {
+  font-size: 17px;
+}
+
+.stock-top .badge {
+  white-space: nowrap;
+  font-style: normal;
+}
+
+.stock-price {
+  display: block;
+  margin: 12px 0 6px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.stock-price em {
+  display: inline-block;
+  margin-left: 6px;
+  font-size: 13px;
+  font-style: normal;
+}
+
+.detail-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.45fr) minmax(320px, .55fr);
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
 .metric {
   padding: 15px;
   min-height: 116px;
@@ -246,6 +347,10 @@ button:hover { background: #dcebf7; }
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 10px;
+}
+
+.trend-grid.compact {
+  grid-template-columns: 1fr;
 }
 
 .trend-grid div {
@@ -415,11 +520,17 @@ footer {
   .hero,
   .dashboard-grid,
   .dashboard-grid.wide-left,
-  .memo-grid {
+  .memo-grid,
+  .detail-layout {
     grid-template-columns: 1fr;
   }
 
   .metric-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .portfolio-strip,
+  .watchlist-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -433,8 +544,11 @@ footer {
   .toolbar { align-items: flex-start; flex-direction: column; }
   .metric-grid { grid-template-columns: 1fr; }
   .metric.main { grid-column: auto; }
+  .portfolio-strip,
+  .watchlist-grid { grid-template-columns: 1fr; }
   .allocation { grid-template-columns: 1fr; }
   .trend-grid { grid-template-columns: 1fr; }
+  .section-head { align-items: flex-start; flex-direction: column; }
   .chart { min-height: 230px; }
   table { display: block; overflow-x: auto; white-space: nowrap; }
   .panel { padding: 14px; }

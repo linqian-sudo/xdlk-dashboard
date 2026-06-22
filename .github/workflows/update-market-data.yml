@@ -1,5 +1,5 @@
-name: Update market data
-# Refreshes the cached quote file for the static GitHub Pages dashboard.
+name: Update watchlist market data
+# Refreshes cached quotes and K-lines for 米法的自选股.
 
 on:
   workflow_dispatch:
