@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" role="img" aria-label="米法头像占位图">
+  <defs>
+    <linearGradient id="water" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#dff5ff"/>
+      <stop offset="0.52" stop-color="#8fd2ee"/>
+      <stop offset="1" stop-color="#2f86b7"/>
+    </linearGradient>
+    <linearGradient id="coral" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff1f0"/>
+      <stop offset="1" stop-color="#d9485a"/>
+    </linearGradient>
+  </defs>
+  <rect width="180" height="180" rx="30" fill="url(#water)"/>
+  <circle cx="90" cy="92" r="58" fill="#fdf7f3" opacity="0.96"/>
+  <path d="M48 88c6-34 26-54 51-56 28 7 42 29 36 61-5-13-13-23-25-29-15-8-38-5-62 24z" fill="url(#coral)"/>
+  <path d="M61 116c18 22 43 25 61 3-8 31-29 45-55 39-11-3-18-16-6-42z" fill="#c93652"/>
+  <path d="M57 75c-9 16-16 24-32 29 4-22 13-39 32-50v21z" fill="#d9485a"/>
+  <path d="M123 73c13 13 22 21 36 26-5-21-17-36-37-45l1 19z" fill="#d9485a"/>
+  <circle cx="72" cy="91" r="5" fill="#26465e"/>
+  <circle cx="108" cy="91" r="5" fill="#26465e"/>
+  <path d="M76 119c10 7 21 7 31 0" fill="none" stroke="#26465e" stroke-width="5" stroke-linecap="round"/>
+  <path d="M90 33l11 17h-22l11-17z" fill="#f4d45e"/>
+  <path d="M58 41c20-20 45-22 68-1" fill="none" stroke="#f4d45e" stroke-width="6" stroke-linecap="round"/>
+  <path d="M30 139c34 14 81 15 120 0" fill="none" stroke="#e9fbff" stroke-width="8" stroke-linecap="round" opacity="0.8"/>
+</svg>

@@ -41,6 +41,33 @@ a:hover { text-decoration: underline; }
   padding: 28px 0 24px;
 }
 
+.hero-copy {
+  min-width: 0;
+}
+
+.brand-lockup {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.brand-lockup strong {
+  display: block;
+  font-size: 15px;
+}
+
+.mipha-photo {
+  width: 72px;
+  height: 72px;
+  border-radius: 18px;
+  object-fit: cover;
+  border: 1px solid #b8d8ea;
+  box-shadow: 0 8px 24px rgba(21, 94, 159, 0.14);
+  background: #eaf3fb;
+  flex: 0 0 auto;
+}
+
 .eyebrow {
   color: var(--muted);
   font-size: 14px;
@@ -123,6 +150,30 @@ button {
 
 button:hover { background: #dcebf7; }
 
+input,
+select {
+  width: 100%;
+  border: 1px solid var(--line);
+  background: #fff;
+  border-radius: 6px;
+  padding: 9px 10px;
+  color: var(--ink);
+  font: inherit;
+}
+
+label {
+  display: grid;
+  gap: 5px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+label input,
+label select {
+  color: var(--ink);
+  font-size: 14px;
+}
+
 .metric-grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -178,19 +229,52 @@ button:hover { background: #dcebf7; }
 }
 
 .stock-card {
-  text-align: left;
+  position: relative;
   border: 1px solid var(--line);
   background: var(--panel);
   border-radius: 8px;
-  padding: 14px;
   color: var(--ink);
   min-height: 148px;
+  overflow: hidden;
 }
 
 .stock-card:hover,
 .stock-card.selected {
   border-color: #9ebfdb;
   background: #f7fbff;
+}
+
+.stock-card-main {
+  display: block;
+  width: 100%;
+  min-height: 148px;
+  padding: 14px;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: inherit;
+  text-align: left;
+}
+
+.stock-card-main:hover {
+  background: transparent;
+}
+
+.stock-delete {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  padding: 5px 8px;
+  background: #f8fafc;
+  color: var(--muted);
+  border-color: var(--line);
+  font-size: 12px;
+}
+
+.stock-delete:hover {
+  color: var(--red);
+  background: var(--soft-red);
+  border-color: #efc5c1;
 }
 
 .stock-top {
@@ -267,6 +351,25 @@ button:hover { background: #dcebf7; }
 
 .panel {
   padding: 18px;
+}
+
+.watchlist-manager {
+  margin-bottom: 18px;
+}
+
+.watchlist-form {
+  display: grid;
+  grid-template-columns: 120px 140px 1fr 1.2fr;
+  gap: 12px;
+  align-items: end;
+}
+
+.watchlist-form .wide-field {
+  grid-column: span 3;
+}
+
+.watchlist-form button[type="submit"] {
+  min-height: 41px;
 }
 
 .chart-panel {
@@ -493,7 +596,9 @@ tr:last-child td { border-bottom: 0; }
   padding: 10px 12px;
 }
 
-.risk-list li.high { border-left-color: var(--red); }
+.risk-list li.high,
+.risk-list li.bad { border-left-color: var(--red); }
+.risk-list li.good { border-left-color: var(--green); }
 .risk-list b { display: block; margin-bottom: 4px; }
 .risk-list small { color: var(--muted); }
 
@@ -534,6 +639,14 @@ footer {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .watchlist-form {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .watchlist-form .wide-field {
+    grid-column: span 2;
+  }
+
   .metric.main {
     grid-column: span 2;
   }
@@ -546,6 +659,8 @@ footer {
   .metric.main { grid-column: auto; }
   .portfolio-strip,
   .watchlist-grid { grid-template-columns: 1fr; }
+  .watchlist-form,
+  .watchlist-form .wide-field { grid-template-columns: 1fr; grid-column: auto; }
   .allocation { grid-template-columns: 1fr; }
   .trend-grid { grid-template-columns: 1fr; }
   .section-head { align-items: flex-start; flex-direction: column; }

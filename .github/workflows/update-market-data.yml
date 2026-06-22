@@ -22,5 +22,5 @@ jobs:
       - name: Commit quote data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: update 688582 market data"
-          file_pattern: "data/quote.json data/quote-history.json"
+          commit_message: "chore: update watchlist market data"
+          file_pattern: "data/watchlist-data.json data/quote.json data/quote-history.json"

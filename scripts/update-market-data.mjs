@@ -2,6 +2,7 @@ import { readFile, writeFile, mkdir } from "node:fs/promises";
 import https from "node:https";
 import { execFile } from "node:child_process";
 import { promisify } from "node:util";
+import { fileURLToPath } from "node:url";
 
 const execFileAsync = promisify(execFile);
 const dataDir = new URL("../data/", import.meta.url);
@@ -9,6 +10,7 @@ const watchlistPath = new URL("../data/watchlist.json", import.meta.url);
 const outputPath = new URL("../data/watchlist-data.json", import.meta.url);
 const legacyQuotePath = new URL("../data/quote.json", import.meta.url);
 const legacyHistoryPath = new URL("../data/quote-history.json", import.meta.url);
+const futuFetchPath = new URL("./futu_fetch_watchlist.py", import.meta.url);
 
 function txSymbol(stock) {
   return `${stock.market === "SH" ? "sh" : "sz"}${stock.code}`;
@@ -70,6 +72,67 @@ async function fetchText(target, referer, attempts = 3) {
 function toNumber(value) {
   const n = Number(value);
   return Number.isFinite(n) ? n : null;
+}
+
+function normalizeExternalQuote(stock, quote) {
+  return {
+    name: quote.name || stock.name,
+    code: quote.code || stock.code,
+    symbol: quote.symbol || stock.symbol,
+    market: quote.market || stock.market,
+    tradeTime: quote.tradeTime || null,
+    updatedAt: quote.updatedAt || new Date().toISOString(),
+    price: toNumber(quote.price),
+    prevClose: toNumber(quote.prevClose),
+    open: toNumber(quote.open),
+    high: toNumber(quote.high),
+    low: toNumber(quote.low),
+    change: toNumber(quote.change),
+    changePct: toNumber(quote.changePct),
+    volumeShares: toNumber(quote.volumeShares),
+    amountYi: toNumber(quote.amountYi),
+    turnover: toNumber(quote.turnover),
+    peTtm: toNumber(quote.peTtm),
+    pb: toNumber(quote.pb),
+    marketCapYi: toNumber(quote.marketCapYi),
+    floatMarketCapYi: toNumber(quote.floatMarketCapYi),
+    high52w: toNumber(quote.high52w),
+    low52w: toNumber(quote.low52w),
+    totalShares: toNumber(quote.totalShares),
+    floatShares: toNumber(quote.floatShares)
+  };
+}
+
+async function tryFetchFutuData() {
+  const commands = process.env.PYTHON
+    ? [process.env.PYTHON]
+    : process.platform === "win32"
+      ? ["python", "py"]
+      : ["python3", "python"];
+  let lastMessage = "Python runtime unavailable";
+  for (const command of commands) {
+    try {
+      const { stdout } = await execFileAsync(command, [fileURLToPath(futuFetchPath)], {
+        maxBuffer: 32 * 1024 * 1024,
+        windowsHide: true
+      });
+      const jsonLine = stdout.trim().split(/\r?\n/).filter(Boolean).at(-1);
+      if (!jsonLine) {
+        lastMessage = `${command} returned no output`;
+        continue;
+      }
+      const payload = JSON.parse(jsonLine);
+      if (payload.ok) {
+        console.log(`Using ${payload.source} for available quotes and K-lines.`);
+        return payload;
+      }
+      lastMessage = payload.reason || `${command} could not fetch Futu data`;
+    } catch (error) {
+      lastMessage = `${command}: ${error.message}`;
+    }
+  }
+  console.warn(`Futu OpenD source skipped: ${lastMessage}`);
+  return { ok: false, reason: lastMessage, source: "Public market fallback", quotes: {}, histories: {}, errors: {} };
 }
 
 function parseTradeTime(raw) {
@@ -265,7 +328,21 @@ function analyze(stock, quote, history) {
   };
 }
 
-async function updateStock(stock) {
+async function updateStock(stock, futuData) {
+  const futuQuote = futuData?.quotes?.[stock.symbol];
+  if (futuQuote?.price) {
+    const quote = normalizeExternalQuote(stock, futuQuote);
+    const rawHistory = Array.isArray(futuData.histories?.[stock.symbol]) ? futuData.histories[stock.symbol] : [];
+    const history = mergeQuoteIntoHistory(rawHistory, quote);
+    return {
+      ...stock,
+      quote,
+      history,
+      dataSource: futuData.source || "Futu OpenD",
+      analysis: analyze(stock, quote, history)
+    };
+  }
+
   const quoteRaw = await fetchText(`https://qt.gtimg.cn/q=${txSymbol(stock)}`, "https://stockapp.finance.qq.com/");
   const quote = parseTencentQuote(quoteRaw, stock);
   let history = [];
@@ -287,18 +364,20 @@ async function updateStock(stock) {
     ...stock,
     quote,
     history,
+    dataSource: "Tencent quote API + Tencent/Eastmoney K-line",
     analysis: analyze(stock, quote, history)
   };
 }
 
 await mkdir(dataDir, { recursive: true });
 const watchlist = JSON.parse(await readFile(watchlistPath, "utf8"));
+const futuData = await tryFetchFutuData();
 const stocks = [];
 for (const stock of watchlist.stocks) {
   try {
-    const updated = await updateStock(stock);
+    const updated = await updateStock(stock, futuData);
     stocks.push(updated);
-    console.log(`Updated ${stock.symbol} ${stock.name}: ${updated.quote.price}; rows=${updated.history.length}`);
+    console.log(`Updated ${stock.symbol} ${stock.name}: ${updated.quote.price}; rows=${updated.history.length}; source=${updated.dataSource}`);
   } catch (error) {
     console.warn(`Failed to update ${stock.symbol} ${stock.name}: ${error.message}`);
     stocks.push({ ...stock, error: error.message, history: [], alerts: [] });
@@ -307,7 +386,8 @@ for (const stock of watchlist.stocks) {
 
 const payload = {
   projectName: watchlist.projectName,
-  source: "Tencent quote API + Eastmoney daily kline",
+  source: futuData?.ok ? "Futu OpenD first + public fallback" : "Public market fallback; Futu OpenD unavailable",
+  sourceNote: futuData?.ok ? futuData.source : futuData?.reason,
   updatedAt: new Date().toISOString(),
   stocks
 };

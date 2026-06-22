@@ -1,5 +1,36 @@
 let appData = null;
 let selectedSymbol = null;
+let visibleStocks = [];
+
+const CUSTOM_STOCKS_KEY = "mifa.customStocks";
+const HIDDEN_STOCKS_KEY = "mifa.hiddenStocks";
+
+function escapeHtml(value) {
+  return String(value ?? "").replace(/[&<>"']/g, (char) => ({
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    "\"": "&quot;",
+    "'": "&#39;"
+  })[char]);
+}
+
+function readStore(key, fallback) {
+  try {
+    const value = JSON.parse(localStorage.getItem(key));
+    return value ?? fallback;
+  } catch {
+    return fallback;
+  }
+}
+
+function writeStore(key, value) {
+  localStorage.setItem(key, JSON.stringify(value));
+}
+
+function normalizeSymbol(market, code) {
+  return `${String(market || "").toUpperCase()}.${String(code || "").replace(/\D/g, "").slice(0, 6)}`;
+}
 
 function number(value, digits = 2) {
   const n = Number(value);
@@ -47,6 +78,68 @@ function levelRank(level) {
   return level === "bad" ? 3 : level === "warn" ? 2 : level === "good" ? 1 : 0;
 }
 
+function createLocalStock({ market, code, name, theme, watchReason }) {
+  const symbol = normalizeSymbol(market, code);
+  return {
+    symbol,
+    market,
+    code,
+    name,
+    theme: theme || "网页添加",
+    watchReason: watchReason || "网页自选股",
+    localOnly: true,
+    quote: {},
+    history: [],
+    analysis: {
+      status: "待数据更新",
+      posture: "等待数据",
+      action: "加入观察",
+      level: "neutral",
+      reason: "已加入当前浏览器自选股，等待行情更新后生成走势图和操作信号。",
+      alerts: [{
+        level: "warn",
+        title: "待行情更新",
+        body: "此标的已保存在当前浏览器；运行本地更新脚本或同步到 data/watchlist.json 后，可补齐富途 OpenD 行情、走势图和风险预警。"
+      }]
+    }
+  };
+}
+
+function getCustomStocks() {
+  return readStore(CUSTOM_STOCKS_KEY, []);
+}
+
+function getHiddenSymbols() {
+  return new Set(readStore(HIDDEN_STOCKS_KEY, []));
+}
+
+function applyLocalWatchlist() {
+  const baseStocks = (appData?.stocks || []).map((stock) => ({ ...stock, localOnly: false }));
+  const hidden = getHiddenSymbols();
+  const customStocks = getCustomStocks();
+  const baseSymbols = new Set(baseStocks.map((stock) => stock.symbol));
+  visibleStocks = baseStocks
+    .filter((stock) => !hidden.has(stock.symbol))
+    .concat(customStocks.filter((stock) => !hidden.has(stock.symbol) && !baseSymbols.has(stock.symbol)));
+  return visibleStocks;
+}
+
+function renderAll() {
+  const stocks = applyLocalWatchlist();
+  renderPortfolio(stocks);
+  if (!stocks.length) {
+    renderWatchlist(stocks);
+    selectedSymbol = null;
+    setText("detailTitle", "图表走势");
+    setText("detailSubtitle", "请先添加自选股。");
+    document.getElementById("priceChart").innerHTML = "<p class=\"readout\">暂无自选股。</p>";
+    return;
+  }
+  if (!stocks.some((stock) => stock.symbol === selectedSymbol)) selectedSymbol = stocks[0].symbol;
+  renderWatchlist(stocks);
+  selectStock(selectedSymbol);
+}
+
 function renderPortfolio(stocks) {
   const highRisk = stocks.filter((stock) => (stock.analysis?.alerts || []).some((alert) => alert.level === "bad")).length;
   const setups = stocks.filter((stock) => ["关键点突破", "临近突破"].includes(stock.analysis?.status)).length;
@@ -69,6 +162,10 @@ function renderPortfolio(stocks) {
 
 function renderWatchlist(stocks) {
   const grid = document.getElementById("watchlistGrid");
+  if (!stocks.length) {
+    grid.innerHTML = "<p class=\"readout\">当前没有自选股。可以在上方添加，或点击“恢复默认名单”。</p>";
+    return;
+  }
   grid.innerHTML = stocks.map((stock) => {
     const q = stock.quote || {};
     const a = stock.analysis || {};
@@ -76,19 +173,25 @@ function renderWatchlist(stocks) {
     const topLevel = alerts.reduce((max, alert) => levelRank(alert.level) > levelRank(max) ? alert.level : max, "good");
     const selected = stock.symbol === selectedSymbol ? " selected" : "";
     return `
-      <button class="stock-card${selected}" type="button" data-symbol="${stock.symbol}">
-        <span class="stock-top">
-          <b>${stock.name}</b>
-          <i class="badge ${a.level || topLevel || "neutral"}">${a.status || "待计算"}</i>
-        </span>
-        <span class="stock-code">${stock.symbol} · ${stock.theme || ""}</span>
-        <span class="stock-price">${number(q.price)} 元 <em class="${Number(q.changePct) >= 0 ? "up" : "down"}">${formatPct(q.changePct)}</em></span>
-        <span class="stock-meta">PE ${number(q.peTtm)}x · PB ${number(q.pb)}x · 预警 ${alerts.length}</span>
-      </button>
+      <article class="stock-card${selected}">
+        <button class="stock-card-main" type="button" data-symbol="${escapeHtml(stock.symbol)}">
+          <span class="stock-top">
+            <b>${escapeHtml(stock.name)}</b>
+            <i class="badge ${a.level || topLevel || "neutral"}">${escapeHtml(a.status || "待计算")}</i>
+          </span>
+          <span class="stock-code">${escapeHtml(stock.symbol)} · ${escapeHtml(stock.theme || "")}${stock.localOnly ? " · 本地自选" : ""}</span>
+          <span class="stock-price">${number(q.price)} 元 <em class="${Number(q.changePct) >= 0 ? "up" : "down"}">${formatPct(q.changePct)}</em></span>
+          <span class="stock-meta">PE ${number(q.peTtm)}x · PB ${number(q.pb)}x · 预警 ${alerts.length}</span>
+        </button>
+        <button class="stock-delete" type="button" data-remove-symbol="${escapeHtml(stock.symbol)}">删除</button>
+      </article>
     `;
   }).join("");
-  grid.querySelectorAll(".stock-card").forEach((card) => {
+  grid.querySelectorAll(".stock-card-main").forEach((card) => {
     card.addEventListener("click", () => selectStock(card.dataset.symbol));
+  });
+  grid.querySelectorAll(".stock-delete").forEach((button) => {
+    button.addEventListener("click", () => removeStock(button.dataset.removeSymbol));
   });
 }
 
@@ -134,7 +237,7 @@ function renderChart(stock) {
   const last = rows.at(-1);
   const first = rows[0];
   host.innerHTML = `
-    <svg viewBox="0 0 ${width} ${height}" role="img" aria-label="${stock.name}价格走势图">
+    <svg viewBox="0 0 ${width} ${height}" role="img" aria-label="${escapeHtml(stock.name)}价格走势图">
       <rect x="0" y="0" width="${width}" height="${height}" rx="8" fill="#fff" />
       ${ticks.map((tick) => `
         <line x1="${left}" y1="${yForValue(tick)}" x2="${width - right}" y2="${yForValue(tick)}" stroke="#e5ebf1" />
@@ -186,20 +289,76 @@ function renderDetail(stock) {
   badge("riskBadge", alerts.length ? `${alerts.length} 条预警` : "暂无预警", topRisk);
   document.getElementById("riskList").innerHTML = alerts.map((alert) => `
     <li class="${alert.level}">
-      <b>${alert.title}</b>
-      <small>${alert.body}</small>
+      <b>${escapeHtml(alert.title)}</b>
+      <small>${escapeHtml(alert.body)}</small>
     </li>
   `).join("");
   renderChart(stock);
-  renderWatchlist(appData.stocks);
+  renderWatchlist(visibleStocks);
 }
 
 function selectStock(symbol) {
   selectedSymbol = symbol;
-  const stock = appData.stocks.find((item) => item.symbol === symbol) || appData.stocks[0];
+  const stock = visibleStocks.find((item) => item.symbol === symbol) || visibleStocks[0];
   if (!stock) return;
   selectedSymbol = stock.symbol;
   renderDetail(stock);
+}
+
+function removeStock(symbol) {
+  const customStocks = getCustomStocks();
+  const nextCustomStocks = customStocks.filter((stock) => stock.symbol !== symbol);
+  writeStore(CUSTOM_STOCKS_KEY, nextCustomStocks);
+
+  const hidden = getHiddenSymbols();
+  hidden.add(symbol);
+  writeStore(HIDDEN_STOCKS_KEY, [...hidden]);
+  setText("watchlistFormNote", `${symbol} 已从当前浏览器自选股中删除。`);
+  renderAll();
+}
+
+function initWatchlistForm() {
+  const form = document.getElementById("watchlistForm");
+  const restoreButton = document.getElementById("restoreWatchlistButton");
+  if (!form || !restoreButton) return;
+
+  form.addEventListener("submit", (event) => {
+    event.preventDefault();
+    const market = document.getElementById("watchMarket").value;
+    const code = document.getElementById("watchCode").value.replace(/\D/g, "");
+    const name = document.getElementById("watchName").value.trim();
+    const theme = document.getElementById("watchTheme").value.trim();
+    const watchReason = document.getElementById("watchReason").value.trim();
+    if (!/^\d{6}$/.test(code) || !name) {
+      setText("watchlistFormNote", "请填写 6 位股票代码和股票名称。");
+      return;
+    }
+
+    const symbol = normalizeSymbol(market, code);
+    const customStocks = getCustomStocks();
+    const hidden = getHiddenSymbols();
+    const alreadyVisible = applyLocalWatchlist().some((stock) => stock.symbol === symbol);
+    if (alreadyVisible) {
+      setText("watchlistFormNote", `${symbol} 已在当前自选股中。`);
+      return;
+    }
+
+    hidden.delete(symbol);
+    writeStore(HIDDEN_STOCKS_KEY, [...hidden]);
+    writeStore(CUSTOM_STOCKS_KEY, customStocks.concat(createLocalStock({ market, code, name, theme, watchReason })));
+    selectedSymbol = symbol;
+    form.reset();
+    setText("watchlistFormNote", `${symbol} ${name} 已加入当前浏览器自选股，等待数据更新后补齐走势图。`);
+    renderAll();
+  });
+
+  restoreButton.addEventListener("click", () => {
+    localStorage.removeItem(CUSTOM_STOCKS_KEY);
+    localStorage.removeItem(HIDDEN_STOCKS_KEY);
+    selectedSymbol = appData?.stocks?.[0]?.symbol || null;
+    setText("watchlistFormNote", "已恢复数据文件中的默认自选股名单。");
+    renderAll();
+  });
 }
 
 async function loadDashboard() {
@@ -209,14 +368,13 @@ async function loadDashboard() {
   appData = await response.json();
   setText("projectName", appData.projectName || "米法的自选股");
   setText("dataStamp", `更新时间：${appData.updatedAt || "--"} · 来源：${appData.source || "--"}`);
-  renderPortfolio(appData.stocks || []);
   selectedSymbol = selectedSymbol || appData.stocks?.[0]?.symbol;
-  renderWatchlist(appData.stocks || []);
-  selectStock(selectedSymbol);
+  renderAll();
 }
 
 document.getElementById("refreshButton").addEventListener("click", () => {
   loadDashboard().catch((error) => setText("dataStamp", `读取失败：${error.message}`));
 });
 
+initWatchlistForm();
 loadDashboard().catch((error) => setText("dataStamp", `读取失败：${error.message}`));

@@ -6,11 +6,11 @@
     "high": 63.076,
     "low": 60.626,
     "volume": 5762129,
-    "amountYi": null,
+    "amountYi": 3.61661805,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 2.3791553178223395,
     "change": null,
-    "turnover": null
+    "turnover": 0.02333
   },
   {
     "date": "2025-05-28",
@@ -19,11 +19,11 @@
     "high": 63.396,
     "low": 61.796,
     "volume": 3338230,
-    "amountYi": null,
+    "amountYi": 2.10225317,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 1.442400153856014,
     "change": null,
-    "turnover": null
+    "turnover": 0.01352
   },
   {
     "date": "2025-05-29",
@@ -32,11 +32,11 @@
     "high": 67.196,
     "low": 63.256,
     "volume": 7569750,
-    "amountYi": null,
+    "amountYi": 4.99138959,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 5.608569261880694,
     "change": null,
-    "turnover": null
+    "turnover": 0.03065
   },
   {
     "date": "2025-05-30",
@@ -45,11 +45,11 @@
     "high": 67.626,
     "low": 65.896,
     "volume": 4396481,
-    "amountYi": null,
+    "amountYi": 2.93899848,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -0.044879274750921724,
     "change": null,
-    "turnover": null
+    "turnover": 0.0178
   },
   {
     "date": "2025-06-03",
@@ -58,11 +58,11 @@
     "high": 70.846,
     "low": 66.356,
     "volume": 8060642,
-    "amountYi": null,
+    "amountYi": 5.63134553,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 3.981082375478922,
     "change": null,
-    "turnover": null
+    "turnover": 0.03264
   },
   {
     "date": "2025-06-04",
@@ -71,11 +71,11 @@
     "high": 69.766,
     "low": 68.706,
     "volume": 3217734,
-    "amountYi": null,
+    "amountYi": 2.24092248,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 0.014393459611959694,
     "change": null,
-    "turnover": null
+    "turnover": 0.01303
   },
   {
     "date": "2025-06-05",
@@ -84,11 +84,11 @@
     "high": 70.796,
     "low": 69.146,
     "volume": 4340312,
-    "amountYi": null,
+    "amountYi": 3.06245336,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 1.5974440894568682,
     "change": null,
-    "turnover": null
+    "turnover": 0.01757
   },
   {
     "date": "2025-06-06",
@@ -97,11 +97,11 @@
     "high": 71.376,
     "low": 69.516,
     "volume": 4798229,
-    "amountYi": null,
+    "amountYi": 3.38435051,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -0.5666043401892539,
     "change": null,
-    "turnover": null
+    "turnover": 0.01943
   },
   {
     "date": "2025-06-09",
@@ -110,24 +110,24 @@
     "high": 70.756,
     "low": 67.196,
     "volume": 6505945,
-    "amountYi": null,
+    "amountYi": 4.53817324,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -0.5698330389195845,
     "change": null,
-    "turnover": null
+    "turnover": 0.02634
   },
   {
     "date": "2025-06-10",
     "open": 69.686,
     "close": 68.616,
     "high": 70.176,
-    "low": 67.716,
+    "low": 67.715999999,
     "volume": 4551410,
-    "amountYi": null,
+    "amountYi": 3.13994827,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -1.690641297495568,
     "change": null,
-    "turnover": null
+    "turnover": 0.01843
   },
   {
     "date": "2025-06-11",
@@ -136,11 +136,11 @@
     "high": 68.896,
     "low": 67.456,
     "volume": 3630376,
-    "amountYi": null,
+    "amountYi": 2.4833083,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -0.4517896700478056,
     "change": null,
-    "turnover": null
+    "turnover": 0.0147
   },
   {
     "date": "2025-06-12",
@@ -149,24 +149,24 @@
     "high": 68.996,
     "low": 67.196,
     "volume": 5139171,
-    "amountYi": null,
+    "amountYi": 3.51564951,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -1.0980001756800282,
     "change": null,
-    "turnover": null
+    "turnover": 0.02081
   },
   {
     "date": "2025-06-13",
     "open": 67.496,
-    "close": 65.516,
+    "close": 65.515999999,
     "high": 67.666,
     "low": 64.416,
     "volume": 13910439,
-    "amountYi": null,
+    "amountYi": 9.17944134,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -3.0197169770264605,
     "change": null,
-    "turnover": null
+    "turnover": 0.05632
   },
   {
     "date": "2025-06-16",
@@ -175,50 +175,50 @@
     "high": 65.976,
     "low": 64.456,
     "volume": 5252500,
-    "amountYi": null,
+    "amountYi": 3.44065771,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -1.1294950836609383,
     "change": null,
-    "turnover": null
+    "turnover": 0.02127
   },
   {
     "date": "2025-06-17",
-    "open": 65.296,
+    "open": 65.295999999,
     "close": 62.916,
     "high": 65.916,
     "low": 62.726,
     "volume": 5904904,
-    "amountYi": null,
+    "amountYi": 3.79670135,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -2.8714338643942194,
     "change": null,
-    "turnover": null
+    "turnover": 0.02391
   },
   {
     "date": "2025-06-18",
     "open": 62.696,
-    "close": 63.936,
+    "close": 63.935999999,
     "high": 64.566,
     "low": 62.616,
     "volume": 3709561,
-    "amountYi": null,
+    "amountYi": 2.3761877,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 1.6212092297666836,
     "change": null,
-    "turnover": null
+    "turnover": 0.01502
   },
   {
     "date": "2025-06-19",
     "open": 63.856,
     "close": 62.816,
-    "high": 64.406,
+    "high": 64.405999999,
     "low": 62.486,
     "volume": 4347110,
-    "amountYi": null,
+    "amountYi": 2.76469929,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -1.7517517502150877,
     "change": null,
-    "turnover": null
+    "turnover": 0.0176
   },
   {
     "date": "2025-06-20",
@@ -227,11 +227,11 @@
     "high": 63.586,
     "low": 61.926,
     "volume": 3474431,
-    "amountYi": null,
+    "amountYi": 2.17788354,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -1.4168364747834954,
     "change": null,
-    "turnover": null
+    "turnover": 0.01407
   },
   {
     "date": "2025-06-23",
@@ -240,50 +240,50 @@
     "high": 63.016,
     "low": 61.396,
     "volume": 3338594,
-    "amountYi": null,
+    "amountYi": 2.08070862,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 0.4521525691954932,
     "change": null,
-    "turnover": null
+    "turnover": 0.01352
   },
   {
     "date": "2025-06-24",
     "open": 62.316,
-    "close": 63.796,
+    "close": 63.795999999,
     "high": 64.446,
     "low": 62.316,
     "volume": 4966996,
-    "amountYi": null,
+    "amountYi": 3.18218816,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 2.5560235330997005,
     "change": null,
-    "turnover": null
+    "turnover": 0.02011
   },
   {
     "date": "2025-06-25",
-    "open": 64.296,
-    "close": 65.016,
+    "open": 64.295999999,
+    "close": 65.015999999,
     "high": 66.086,
-    "low": 63.796,
+    "low": 63.795999999,
     "volume": 6342155,
-    "amountYi": null,
+    "amountYi": 4.12865926,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 1.9123456016350904,
     "change": null,
-    "turnover": null
+    "turnover": 0.02568
   },
   {
     "date": "2025-06-26",
     "open": 65.026,
     "close": 63.686,
-    "high": 65.186,
+    "high": 65.185999999,
     "low": 63.406,
     "volume": 5122667,
-    "amountYi": null,
+    "amountYi": 3.29505582,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -2.0456502999576385,
     "change": null,
-    "turnover": null
+    "turnover": 0.02074
   },
   {
     "date": "2025-06-27",
@@ -292,63 +292,63 @@
     "high": 65.926,
     "low": 63.696,
     "volume": 4933225,
-    "amountYi": null,
+    "amountYi": 3.22012305,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 2.198285337436797,
     "change": null,
-    "turnover": null
+    "turnover": 0.0198
   },
   {
     "date": "2025-06-30",
-    "open": 65.466,
+    "open": 65.465999999,
     "close": 66.896,
     "high": 68.026,
     "low": 65.356,
     "volume": 5647006,
-    "amountYi": null,
+    "amountYi": 3.81260915,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 2.780935992379317,
     "change": null,
-    "turnover": null
+    "turnover": 0.02266
   },
   {
     "date": "2025-07-01",
     "open": 66.706,
     "close": 67.646,
-    "high": 67.936,
+    "high": 67.935999999,
     "low": 66.196,
     "volume": 4337798,
-    "amountYi": null,
+    "amountYi": 2.92797746,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 1.1211432671609662,
     "change": null,
-    "turnover": null
+    "turnover": 0.01741
   },
   {
     "date": "2025-07-02",
     "open": 67.376,
-    "close": 66.656,
+    "close": 66.655999999,
     "high": 67.666,
     "low": 66.196,
     "volume": 3417540,
-    "amountYi": null,
+    "amountYi": 2.28777036,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -1.463501169322648,
     "change": null,
-    "turnover": null
+    "turnover": 0.01371
   },
   {
     "date": "2025-07-03",
     "open": 66.556,
     "close": 65.756,
     "high": 67.286,
-    "low": 65.576,
+    "low": 65.575999999,
     "volume": 3986917,
-    "amountYi": null,
+    "amountYi": 2.65066132,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -1.35021603308555,
     "change": null,
-    "turnover": null
+    "turnover": 0.016
   },
   {
     "date": "2025-07-04",
@@ -357,11 +357,11 @@
     "high": 66.776,
     "low": 64.866,
     "volume": 3329151,
-    "amountYi": null,
+    "amountYi": 2.20622766,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 0.5170630816959721,
     "change": null,
-    "turnover": null
+    "turnover": 0.01336
   },
   {
     "date": "2025-07-07",
@@ -370,24 +370,24 @@
     "high": 69.906,
     "low": 66.086,
     "volume": 8180359,
-    "amountYi": null,
+    "amountYi": 5.55223143,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 0.27233115468408464,
     "change": null,
-    "turnover": null
+    "turnover": 0.03283
   },
   {
     "date": "2025-07-08",
-    "open": 65.906,
+    "open": 65.905999999,
     "close": 65.346,
     "high": 67.856,
     "low": 65.006,
     "volume": 8430219,
-    "amountYi": null,
+    "amountYi": 5.60718119,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -1.403222886112609,
     "change": null,
-    "turnover": null
+    "turnover": 0.03383
   },
   {
     "date": "2025-07-09",
@@ -396,24 +396,24 @@
     "high": 66.476,
     "low": 64.246,
     "volume": 5204655,
-    "amountYi": null,
+    "amountYi": 3.40202257,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -1.331374529427975,
     "change": null,
-    "turnover": null
+    "turnover": 0.02089
   },
   {
     "date": "2025-07-10",
     "open": 64.376,
-    "close": 64.766,
+    "close": 64.765999999,
     "high": 65.086,
-    "low": 63.766,
+    "low": 63.765999999,
     "volume": 3678874,
-    "amountYi": null,
+    "amountYi": 2.38340143,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 0.44977976146163323,
     "change": null,
-    "turnover": null
+    "turnover": 0.01476
   },
   {
     "date": "2025-07-11",
@@ -422,11 +422,11 @@
     "high": 64.646,
     "low": 63.576,
     "volume": 6996610,
-    "amountYi": null,
+    "amountYi": 4.49181846,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -1.8065034107681037,
     "change": null,
-    "turnover": null
+    "turnover": 0.02808
   },
   {
     "date": "2025-07-14",
@@ -435,24 +435,24 @@
     "high": 64.316,
     "low": 62.696,
     "volume": 5137050,
-    "amountYi": null,
+    "amountYi": 3.28913396,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 0.5975218567205525,
     "change": null,
-    "turnover": null
+    "turnover": 0.02061
   },
   {
     "date": "2025-07-15",
     "open": 64.346,
     "close": 66.286,
-    "high": 66.576,
+    "high": 66.575999999,
     "low": 64.116,
     "volume": 9260178,
-    "amountYi": null,
+    "amountYi": 6.12816511,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 3.6107290233837728,
     "change": null,
-    "turnover": null
+    "turnover": 0.03716
   },
   {
     "date": "2025-07-16",
@@ -461,50 +461,50 @@
     "high": 66.816,
     "low": 65.206,
     "volume": 5483183,
-    "amountYi": null,
+    "amountYi": 3.63668626,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -0.8900823703346158,
     "change": null,
-    "turnover": null
+    "turnover": 0.022
   },
   {
     "date": "2025-07-17",
-    "open": 65.576,
-    "close": 65.156,
+    "open": 65.575999999,
+    "close": 65.155999999,
     "high": 66.166,
     "low": 64.496,
     "volume": 6148204,
-    "amountYi": null,
+    "amountYi": 4.02301317,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -0.8219678534461698,
     "change": null,
-    "turnover": null
+    "turnover": 0.02467
   },
   {
     "date": "2025-07-18",
     "open": 65.196,
     "close": 64.386,
-    "high": 65.576,
+    "high": 65.575999999,
     "low": 64.356,
     "volume": 5313217,
-    "amountYi": null,
+    "amountYi": 3.45547607,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -1.1817791132233781,
     "change": null,
-    "turnover": null
+    "turnover": 0.02132
   },
   {
     "date": "2025-07-21",
-    "open": 64.576,
-    "close": 63.766,
-    "high": 64.796,
+    "open": 64.575999999,
+    "close": 63.765999999,
+    "high": 64.795999999,
     "low": 63.376,
     "volume": 5232584,
-    "amountYi": null,
+    "amountYi": 3.35998303,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -0.962942256080505,
     "change": null,
-    "turnover": null
+    "turnover": 0.021
   },
   {
     "date": "2025-07-22",
@@ -513,24 +513,24 @@
     "high": 64.606,
     "low": 63.466,
     "volume": 4358647,
-    "amountYi": null,
+    "amountYi": 2.80967191,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 0.28228209547849803,
     "change": null,
-    "turnover": null
+    "turnover": 0.01749
   },
   {
     "date": "2025-07-23",
-    "open": 63.966,
+    "open": 63.965999999,
     "close": 64.246,
     "high": 64.476,
     "low": 62.976,
     "volume": 4651883,
-    "amountYi": null,
+    "amountYi": 2.98315287,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 0.4691458418040177,
     "change": null,
-    "turnover": null
+    "turnover": 0.01867
   },
   {
     "date": "2025-07-24",
@@ -539,37 +539,37 @@
     "high": 64.816,
     "low": 63.806,
     "volume": 4474650,
-    "amountYi": null,
+    "amountYi": 2.89134414,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -0.10895619960774706,
     "change": null,
-    "turnover": null
+    "turnover": 0.01796
   },
   {
     "date": "2025-07-25",
-    "open": 64.186,
-    "close": 64.656,
+    "open": 64.185999999,
+    "close": 64.655999999,
     "high": 64.746,
     "low": 63.366,
     "volume": 4671257,
-    "amountYi": null,
+    "amountYi": 3.00459825,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 0.7479431547619052,
     "change": null,
-    "turnover": null
+    "turnover": 0.01875
   },
   {
     "date": "2025-07-28",
     "open": 65.176,
-    "close": 64.906,
+    "close": 64.905999999,
     "high": 65.886,
     "low": 64.526,
     "volume": 5632357,
-    "amountYi": null,
+    "amountYi": 3.68999866,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 0.38666171740266425,
     "change": null,
-    "turnover": null
+    "turnover": 0.0226
   },
   {
     "date": "2025-07-29",
@@ -578,11 +578,11 @@
     "high": 65.196,
     "low": 63.926,
     "volume": 4397280,
-    "amountYi": null,
+    "amountYi": 2.84876154,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -1.0476689350914858,
     "change": null,
-    "turnover": null
+    "turnover": 0.01765
   },
   {
     "date": "2025-07-30",
@@ -591,11 +591,11 @@
     "high": 65.096,
     "low": 63.606,
     "volume": 4369090,
-    "amountYi": null,
+    "amountYi": 2.81384104,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -0.778500918631084,
     "change": null,
-    "turnover": null
+    "turnover": 0.01753
   },
   {
     "date": "2025-07-31",
@@ -604,37 +604,37 @@
     "high": 65.596,
     "low": 63.496,
     "volume": 6246073,
-    "amountYi": null,
+    "amountYi": 4.05297863,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 0.4236889181809671,
     "change": null,
-    "turnover": null
+    "turnover": 0.02506
   },
   {
     "date": "2025-08-01",
-    "open": 64.046,
+    "open": 64.045999999,
     "close": 64.396,
-    "high": 64.466,
+    "high": 64.465999999,
     "low": 62.006,
     "volume": 6649596,
-    "amountYi": null,
+    "amountYi": 4.21427212,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 0.6250390649415566,
     "change": null,
-    "turnover": null
+    "turnover": 0.02668
   },
   {
     "date": "2025-08-04",
     "open": 64.396,
     "close": 63.596,
-    "high": 64.766,
+    "high": 64.765999999,
     "low": 63.326,
     "volume": 4477419,
-    "amountYi": null,
+    "amountYi": 2.87239907,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -1.2423131871544881,
     "change": null,
-    "turnover": null
+    "turnover": 0.01797
   },
   {
     "date": "2025-08-05",
@@ -643,24 +643,24 @@
     "high": 66.206,
     "low": 63.596,
     "volume": 8781440,
-    "amountYi": null,
+    "amountYi": 5.73799522,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 3.537958362161154,
     "change": null,
-    "turnover": null
+    "turnover": 0.03524
   },
   {
     "date": "2025-08-06",
     "open": 65.566,
     "close": 66.566,
-    "high": 66.576,
-    "low": 64.656,
+    "high": 66.575999999,
+    "low": 64.655999999,
     "volume": 6516708,
-    "amountYi": null,
+    "amountYi": 4.29226627,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 1.0934604987394811,
     "change": null,
-    "turnover": null
+    "turnover": 0.02615
   },
   {
     "date": "2025-08-07",
@@ -669,37 +669,37 @@
     "high": 66.636,
     "low": 64.816,
     "volume": 4909601,
-    "amountYi": null,
+    "amountYi": 3.23740643,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -1.6224498993480128,
     "change": null,
-    "turnover": null
+    "turnover": 0.0197
   },
   {
     "date": "2025-08-08",
-    "open": 65.466,
+    "open": 65.465999999,
     "close": 64.126,
     "high": 65.476,
     "low": 63.976,
     "volume": 4609883,
-    "amountYi": null,
+    "amountYi": 2.98437724,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -2.0767797697217714,
     "change": null,
-    "turnover": null
+    "turnover": 0.0185
   },
   {
     "date": "2025-08-11",
-    "open": 64.016,
+    "open": 64.015999999,
     "close": 65.426,
-    "high": 66.576,
+    "high": 66.575999999,
     "low": 63.996,
     "volume": 6232049,
-    "amountYi": null,
+    "amountYi": 4.11756139,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 2.0272588341702225,
     "change": null,
-    "turnover": null
+    "turnover": 0.02501
   },
   {
     "date": "2025-08-12",
@@ -708,11 +708,11 @@
     "high": 66.066,
     "low": 64.306,
     "volume": 6163274,
-    "amountYi": null,
+    "amountYi": 4.03105245,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 0.33625775685507114,
     "change": null,
-    "turnover": null
+    "turnover": 0.02473
   },
   {
     "date": "2025-08-13",
@@ -721,11 +721,11 @@
     "high": 69.326,
     "low": 65.196,
     "volume": 12168897,
-    "amountYi": null,
+    "amountYi": 8.25376026,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 4.371934314352748,
     "change": null,
-    "turnover": null
+    "turnover": 0.04883
   },
   {
     "date": "2025-08-14",
@@ -734,24 +734,24 @@
     "high": 69.546,
     "low": 66.596,
     "volume": 7430885,
-    "amountYi": null,
+    "amountYi": 5.03613409,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -2.2768404460272085,
     "change": null,
-    "turnover": null
+    "turnover": 0.02982
   },
   {
     "date": "2025-08-15",
-    "open": 67.216,
+    "open": 67.215999999,
     "close": 75.296,
     "high": 76.566,
     "low": 66.756,
     "volume": 15255678,
-    "amountYi": null,
+    "amountYi": 10.95672164,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 12.455941215126357,
     "change": null,
-    "turnover": null
+    "turnover": 0.06122
   },
   {
     "date": "2025-08-18",
@@ -760,11 +760,11 @@
     "high": 88.646,
     "low": 74.906,
     "volume": 20883556,
-    "amountYi": null,
+    "amountYi": 16.97016811,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 15.140246493837642,
     "change": null,
-    "turnover": null
+    "turnover": 0.0838
   },
   {
     "date": "2025-08-19",
@@ -773,11 +773,11 @@
     "high": 84.756,
     "low": 78.496,
     "volume": 20284652,
-    "amountYi": null,
+    "amountYi": 16.45596569,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -8.477899787764134,
     "change": null,
-    "turnover": null
+    "turnover": 0.0814
   },
   {
     "date": "2025-08-20",
@@ -786,11 +786,11 @@
     "high": 83.196,
     "low": 77.696,
     "volume": 16369118,
-    "amountYi": null,
+    "amountYi": 13.31546961,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 4.2346180021677196,
     "change": null,
-    "turnover": null
+    "turnover": 0.06569
   },
   {
     "date": "2025-08-21",
@@ -799,11 +799,11 @@
     "high": 82.716,
     "low": 77.966,
     "volume": 12179954,
-    "amountYi": null,
+    "amountYi": 9.73972778,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -4.364858655962082,
     "change": null,
-    "turnover": null
+    "turnover": 0.04888
   },
   {
     "date": "2025-08-22",
@@ -812,11 +812,11 @@
     "high": 81.896,
     "low": 78.596,
     "volume": 12490248,
-    "amountYi": null,
+    "amountYi": 10.06097797,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 1.9596439769394118,
     "change": null,
-    "turnover": null
+    "turnover": 0.05012
   },
   {
     "date": "2025-08-25",
@@ -825,11 +825,11 @@
     "high": 84.386,
     "low": 80.296,
     "volume": 14133704,
-    "amountYi": null,
+    "amountYi": 11.64962207,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 2.331175755772134,
     "change": null,
-    "turnover": null
+    "turnover": 0.05672
   },
   {
     "date": "2025-08-26",
@@ -838,11 +838,11 @@
     "high": 82.246,
     "low": 80.206,
     "volume": 6628862,
-    "amountYi": null,
+    "amountYi": 5.40321084,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -1.890313355790905,
     "change": null,
-    "turnover": null
+    "turnover": 0.0266
   },
   {
     "date": "2025-08-27",
@@ -851,11 +851,11 @@
     "high": 82.516,
     "low": 78.376,
     "volume": 13639769,
-    "amountYi": null,
+    "amountYi": 10.97529461,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -2.581330434997393,
     "change": null,
-    "turnover": null
+    "turnover": 0.05474
   },
   {
     "date": "2025-08-28",
@@ -864,11 +864,11 @@
     "high": 80.666,
     "low": 76.996,
     "volume": 10817957,
-    "amountYi": null,
+    "amountYi": 8.55480261,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 2.1806379633855655,
     "change": null,
-    "turnover": null
+    "turnover": 0.04341
   },
   {
     "date": "2025-08-29",
@@ -877,11 +877,11 @@
     "high": 82.236,
     "low": 79.776,
     "volume": 9528468,
-    "amountYi": null,
+    "amountYi": 7.74045494,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -0.3598193458732521,
     "change": null,
-    "turnover": null
+    "turnover": 0.03824
   },
   {
     "date": "2025-09-01",
@@ -890,11 +890,11 @@
     "high": 83.226,
     "low": 79.216,
     "volume": 9790644,
-    "amountYi": null,
+    "amountYi": 8.00030692,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 1.1082609020496608,
     "change": null,
-    "turnover": null
+    "turnover": 0.03929
   },
   {
     "date": "2025-09-02",
@@ -903,11 +903,11 @@
     "high": 81.666,
     "low": 76.596,
     "volume": 9783320,
-    "amountYi": null,
+    "amountYi": 7.70343243,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -5.221932114882501,
     "change": null,
-    "turnover": null
+    "turnover": 0.03926
   },
   {
     "date": "2025-09-03",
@@ -916,11 +916,11 @@
     "high": 78.356,
     "low": 75.036,
     "volume": 7074608,
-    "amountYi": null,
+    "amountYi": 5.42233206,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -1.4423826602214245,
     "change": null,
-    "turnover": null
+    "turnover": 0.02839
   },
   {
     "date": "2025-09-04",
@@ -929,11 +929,11 @@
     "high": 79.696,
     "low": 69.996,
     "volume": 10452455,
-    "amountYi": null,
+    "amountYi": 7.74730906,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -5.656198085594502,
     "change": null,
-    "turnover": null
+    "turnover": 0.04194
   },
   {
     "date": "2025-09-05",
@@ -942,11 +942,11 @@
     "high": 73.666,
     "low": 70.526,
     "volume": 6473823,
-    "amountYi": null,
+    "amountYi": 4.70728181,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 2.375761641232046,
     "change": null,
-    "turnover": null
+    "turnover": 0.02598
   },
   {
     "date": "2025-09-08",
@@ -955,11 +955,11 @@
     "high": 75.546,
     "low": 73.256,
     "volume": 5687296,
-    "amountYi": null,
+    "amountYi": 4.25193493,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 1.5561865239707335,
     "change": null,
-    "turnover": null
+    "turnover": 0.02282
   },
   {
     "date": "2025-09-09",
@@ -968,11 +968,11 @@
     "high": 74.826,
     "low": 72.146,
     "volume": 4537265,
-    "amountYi": null,
+    "amountYi": 3.33594419,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -2.043120597881601,
     "change": null,
-    "turnover": null
+    "turnover": 0.01821
   },
   {
     "date": "2025-09-10",
@@ -981,11 +981,11 @@
     "high": 74.346,
     "low": 72.596,
     "volume": 3623215,
-    "amountYi": null,
+    "amountYi": 2.67379532,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 0.3293265272517631,
     "change": null,
-    "turnover": null
+    "turnover": 0.01454
   },
   {
     "date": "2025-09-11",
@@ -994,11 +994,11 @@
     "high": 76.396,
     "low": 72.116,
     "volume": 6834993,
-    "amountYi": null,
+    "amountYi": 5.13261936,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 3.4739318343454326,
     "change": null,
-    "turnover": null
+    "turnover": 0.02743
   },
   {
     "date": "2025-09-12",
@@ -1007,11 +1007,11 @@
     "high": 77.866,
     "low": 75.586,
     "volume": 6329153,
-    "amountYi": null,
+    "amountYi": 4.86450473,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 0.03965316696626987,
     "change": null,
-    "turnover": null
+    "turnover": 0.0254
   },
   {
     "date": "2025-09-15",
@@ -1020,11 +1020,11 @@
     "high": 78.596,
     "low": 74.856,
     "volume": 6642235,
-    "amountYi": null,
+    "amountYi": 5.0873252,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -1.0966361017889865,
     "change": null,
-    "turnover": null
+    "turnover": 0.02665
   },
   {
     "date": "2025-09-16",
@@ -1033,11 +1033,11 @@
     "high": 75.886,
     "low": 74.196,
     "volume": 5569327,
-    "amountYi": null,
+    "amountYi": 4.19904255,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 0.8549748851127507,
     "change": null,
-    "turnover": null
+    "turnover": 0.02235
   },
   {
     "date": "2025-09-17",
@@ -1046,11 +1046,11 @@
     "high": 78.896,
     "low": 75.696,
     "volume": 7948554,
-    "amountYi": null,
+    "amountYi": 6.20416841,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 4.198897954858538,
     "change": null,
-    "turnover": null
+    "turnover": 0.0319
   },
   {
     "date": "2025-09-18",
@@ -1059,11 +1059,11 @@
     "high": 82.586,
     "low": 78.256,
     "volume": 11206962,
-    "amountYi": null,
+    "amountYi": 9.04104309,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 1.4873007398367806,
     "change": null,
-    "turnover": null
+    "turnover": 0.04497
   },
   {
     "date": "2025-09-19",
@@ -1072,11 +1072,11 @@
     "high": 80.702,
     "low": 76.612,
     "volume": 6447806,
-    "amountYi": null,
+    "amountYi": 5.08687853,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -3.161481036124056,
     "change": null,
-    "turnover": null
+    "turnover": 0.02587
   },
   {
     "date": "2025-09-22",
@@ -1085,11 +1085,11 @@
     "high": 79.622,
     "low": 77.462,
     "volume": 5426690,
-    "amountYi": null,
+    "amountYi": 4.27641653,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 1.4486754966887476,
     "change": null,
-    "turnover": null
+    "turnover": 0.02178
   },
   {
     "date": "2025-09-23",
@@ -1098,11 +1098,11 @@
     "high": 79.832,
     "low": 74.202,
     "volume": 8170385,
-    "amountYi": null,
+    "amountYi": 6.24578926,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -2.779477764177895,
     "change": null,
-    "turnover": null
+    "turnover": 0.03279
   },
   {
     "date": "2025-09-24",
@@ -1111,11 +1111,11 @@
     "high": 79.792,
     "low": 75.492,
     "volume": 6455101,
-    "amountYi": null,
+    "amountYi": 5.03815699,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 3.0425431464092845,
     "change": null,
-    "turnover": null
+    "turnover": 0.0259
   },
   {
     "date": "2025-09-25",
@@ -1124,11 +1124,11 @@
     "high": 79.352,
     "low": 77.532,
     "volume": 5394020,
-    "amountYi": null,
+    "amountYi": 4.22677729,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -0.6618133686300413,
     "change": null,
-    "turnover": null
+    "turnover": 0.02165
   },
   {
     "date": "2025-09-26",
@@ -1137,11 +1137,11 @@
     "high": 78.872,
     "low": 74.952,
     "volume": 5535229,
-    "amountYi": null,
+    "amountYi": 4.25203842,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -3.869215394864975,
     "change": null,
-    "turnover": null
+    "turnover": 0.02221
   },
   {
     "date": "2025-09-29",
@@ -1150,11 +1150,11 @@
     "high": 76.202,
     "low": 74.492,
     "volume": 5136901,
-    "amountYi": null,
+    "amountYi": 3.87274454,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 0.026655293741350665,
     "change": null,
-    "turnover": null
+    "turnover": 0.02061
   },
   {
     "date": "2025-09-30",
@@ -1163,11 +1163,11 @@
     "high": 77.612,
     "low": 75.292,
     "volume": 5261257,
-    "amountYi": null,
+    "amountYi": 4.04583093,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 1.9319938176197684,
     "change": null,
-    "turnover": null
+    "turnover": 0.02111
   },
   {
     "date": "2025-10-09",
@@ -1176,11 +1176,11 @@
     "high": 80.072,
     "low": 76.852,
     "volume": 8430524,
-    "amountYi": null,
+    "amountYi": 6.67614809,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 2.8495987033018833,
     "change": null,
-    "turnover": null
+    "turnover": 0.03383
   },
   {
     "date": "2025-10-10",
@@ -1189,11 +1189,11 @@
     "high": 79.822,
     "low": 76.492,
     "volume": 7345043,
-    "amountYi": null,
+    "amountYi": 5.73274919,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -2.008083170229529,
     "change": null,
-    "turnover": null
+    "turnover": 0.02948
   },
   {
     "date": "2025-10-13",
@@ -1202,11 +1202,11 @@
     "high": 77.842,
     "low": 74.552,
     "volume": 5940927,
-    "amountYi": null,
+    "amountYi": 4.53418545,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 0.7911597623926738,
     "change": null,
-    "turnover": null
+    "turnover": 0.02384
   },
   {
     "date": "2025-10-14",
@@ -1215,11 +1215,11 @@
     "high": 78.952,
     "low": 73.142,
     "volume": 7871753,
-    "amountYi": null,
+    "amountYi": 5.97313168,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -5.764875437512873,
     "change": null,
-    "turnover": null
+    "turnover": 0.03159
   },
   {
     "date": "2025-10-15",
@@ -1228,24 +1228,24 @@
     "high": 71.332,
     "low": 66.882,
     "volume": 9743025,
-    "amountYi": null,
+    "amountYi": 6.74115868,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -5.038780860825865,
     "change": null,
-    "turnover": null
+    "turnover": 0.0391
   },
   {
     "date": "2025-10-16",
     "open": 69.352,
-    "close": 67.702,
+    "close": 67.701999999,
     "high": 69.412,
     "low": 66.992,
     "volume": 6985897,
-    "amountYi": null,
+    "amountYi": 4.75987441,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -2.6458830649104237,
     "change": null,
-    "turnover": null
+    "turnover": 0.02803
   },
   {
     "date": "2025-10-17",
@@ -1254,11 +1254,11 @@
     "high": 67.962,
     "low": 64.652,
     "volume": 5761431,
-    "amountYi": null,
+    "amountYi": 3.804922,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -4.135771467669126,
     "change": null,
-    "turnover": null
+    "turnover": 0.02312
   },
   {
     "date": "2025-10-20",
@@ -1267,24 +1267,24 @@
     "high": 66.352,
     "low": 64.262,
     "volume": 5224809,
-    "amountYi": null,
+    "amountYi": 3.40788383,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 0.23111768512527453,
     "change": null,
-    "turnover": null
+    "turnover": 0.02097
   },
   {
     "date": "2025-10-21",
     "open": 65.352,
     "close": 66.412,
-    "high": 66.452,
+    "high": 66.451999999,
     "low": 64.272,
     "volume": 5529732,
-    "amountYi": null,
+    "amountYi": 3.62788173,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 2.090635184160363,
     "change": null,
-    "turnover": null
+    "turnover": 0.02219
   },
   {
     "date": "2025-10-22",
@@ -1293,11 +1293,11 @@
     "high": 68.572,
     "low": 65.792,
     "volume": 5037935,
-    "amountYi": null,
+    "amountYi": 3.41063968,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 1.2648316569294542,
     "change": null,
-    "turnover": null
+    "turnover": 0.02022
   },
   {
     "date": "2025-10-23",
@@ -1306,11 +1306,11 @@
     "high": 67.212,
     "low": 65.382,
     "volume": 2720122,
-    "amountYi": null,
+    "amountYi": 1.80300306,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -0.4163444953309956,
     "change": null,
-    "turnover": null
+    "turnover": 0.01092
   },
   {
     "date": "2025-10-24",
@@ -1319,24 +1319,24 @@
     "high": 68.632,
     "low": 67.332,
     "volume": 4547482,
-    "amountYi": null,
+    "amountYi": 3.09913716,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 2.135220689243276,
     "change": null,
-    "turnover": null
+    "turnover": 0.01825
   },
   {
     "date": "2025-10-27",
     "open": 69.232,
-    "close": 67.482,
+    "close": 67.481999999,
     "high": 69.562,
-    "low": 67.062,
+    "low": 67.061999999,
     "volume": 6373419,
-    "amountYi": null,
+    "amountYi": 4.34956403,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -1.3449899140376091,
     "change": null,
-    "turnover": null
+    "turnover": 0.02558
   },
   {
     "date": "2025-10-28",
@@ -1345,37 +1345,37 @@
     "high": 68.442,
     "low": 66.362,
     "volume": 5602192,
-    "amountYi": null,
+    "amountYi": 3.79208736,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -0.6372069574202914,
     "change": null,
-    "turnover": null
+    "turnover": 0.02248
   },
   {
     "date": "2025-10-29",
     "open": 66.442,
-    "close": 65.812,
+    "close": 65.811999999,
     "high": 67.052,
     "low": 64.662,
     "volume": 8727147,
-    "amountYi": null,
+    "amountYi": 5.72471995,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -1.8493109840124269,
     "change": null,
-    "turnover": null
+    "turnover": 0.03502
   },
   {
     "date": "2025-10-30",
-    "open": 65.812,
-    "close": 64.452,
+    "open": 65.811999999,
+    "close": 64.451999999,
     "high": 65.832,
-    "low": 64.342,
+    "low": 64.341999999,
     "volume": 5073811,
-    "amountYi": null,
+    "amountYi": 3.29849247,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -2.0664924330223435,
     "change": null,
-    "turnover": null
+    "turnover": 0.02036
   },
   {
     "date": "2025-10-31",
@@ -1384,11 +1384,11 @@
     "high": 65.052,
     "low": 63.862,
     "volume": 4783504,
-    "amountYi": null,
+    "amountYi": 3.08298591,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -0.40340097902941024,
     "change": null,
-    "turnover": null
+    "turnover": 0.0192
   },
   {
     "date": "2025-11-03",
@@ -1397,24 +1397,24 @@
     "high": 64.192,
     "low": 62.452,
     "volume": 4706202,
-    "amountYi": null,
+    "amountYi": 2.98158489,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -0.48292622133598456,
     "change": null,
-    "turnover": null
+    "turnover": 0.01889
   },
   {
     "date": "2025-11-04",
-    "open": 63.872,
+    "open": 63.871999999,
     "close": 62.112,
-    "high": 64.232,
+    "high": 64.231999999,
     "low": 61.652,
     "volume": 4779732,
-    "amountYi": null,
+    "amountYi": 2.99732383,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -2.770733539964303,
     "change": null,
-    "turnover": null
+    "turnover": 0.01918
   },
   {
     "date": "2025-11-05",
@@ -1423,11 +1423,11 @@
     "high": 62.052,
     "low": 61.012,
     "volume": 3420511,
-    "amountYi": null,
+    "amountYi": 2.10852296,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -0.6439979392065922,
     "change": null,
-    "turnover": null
+    "turnover": 0.01373
   },
   {
     "date": "2025-11-06",
@@ -1436,11 +1436,11 @@
     "high": 62.692,
     "low": 61.062,
     "volume": 4921024,
-    "amountYi": null,
+    "amountYi": 3.05679586,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 0.7453979777028676,
     "change": null,
-    "turnover": null
+    "turnover": 0.01975
   },
   {
     "date": "2025-11-07",
@@ -1449,11 +1449,11 @@
     "high": 61.832,
     "low": 60.612,
     "volume": 4295362,
-    "amountYi": null,
+    "amountYi": 2.62303303,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -2.428746059319305,
     "change": null,
-    "turnover": null
+    "turnover": 0.01724
   },
   {
     "date": "2025-11-10",
@@ -1462,11 +1462,11 @@
     "high": 61.312,
     "low": 59.752,
     "volume": 4354872,
-    "amountYi": null,
+    "amountYi": 2.63360866,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -0.1978174145263879,
     "change": null,
-    "turnover": null
+    "turnover": 0.01748
   },
   {
     "date": "2025-11-11",
@@ -1475,11 +1475,11 @@
     "high": 60.932,
     "low": 58.622,
     "volume": 4604799,
-    "amountYi": null,
+    "amountYi": 2.74572909,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -2.8575203990618148,
     "change": null,
-    "turnover": null
+    "turnover": 0.01848
   },
   {
     "date": "2025-11-12",
@@ -1488,11 +1488,11 @@
     "high": 59.502,
     "low": 57.872,
     "volume": 3880652,
-    "amountYi": null,
+    "amountYi": 2.29248982,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 0.5441066449024013,
     "change": null,
-    "turnover": null
+    "turnover": 0.01557
   },
   {
     "date": "2025-11-13",
@@ -1501,11 +1501,11 @@
     "high": 59.482,
     "low": 58.552,
     "volume": 3806631,
-    "amountYi": null,
+    "amountYi": 2.25222197,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 0.5749847798146577,
     "change": null,
-    "turnover": null
+    "turnover": 0.01528
   },
   {
     "date": "2025-11-14",
@@ -1514,11 +1514,11 @@
     "high": 59.142,
     "low": 57.862,
     "volume": 3375863,
-    "amountYi": null,
+    "amountYi": 1.98266067,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -2.707156308851223,
     "change": null,
-    "turnover": null
+    "turnover": 0.01355
   },
   {
     "date": "2025-11-17",
@@ -1527,11 +1527,11 @@
     "high": 58.732,
     "low": 57.332,
     "volume": 3175819,
-    "amountYi": null,
+    "amountYi": 1.84307789,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 0.06912999896304853,
     "change": null,
-    "turnover": null
+    "turnover": 0.01269
   },
   {
     "date": "2025-11-18",
@@ -1540,11 +1540,11 @@
     "high": 58.492,
     "low": 57.442,
     "volume": 3341611,
-    "amountYi": null,
+    "amountYi": 1.94087487,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -0.3799523332527354,
     "change": null,
-    "turnover": null
+    "turnover": 0.01335
   },
   {
     "date": "2025-11-19",
@@ -1553,11 +1553,11 @@
     "high": 58.072,
     "low": 56.232,
     "volume": 3719875,
-    "amountYi": null,
+    "amountYi": 2.12230891,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -2.392427447037208,
     "change": null,
-    "turnover": null
+    "turnover": 0.01487
   },
   {
     "date": "2025-11-20",
@@ -1566,11 +1566,11 @@
     "high": 57.692,
     "low": 55.862,
     "volume": 4115426,
-    "amountYi": null,
+    "amountYi": 2.3317825,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -0.781499769102337,
     "change": null,
-    "turnover": null
+    "turnover": 0.01645
   },
   {
     "date": "2025-11-21",
@@ -1579,11 +1579,11 @@
     "high": 55.852,
     "low": 53.702,
     "volume": 5616648,
-    "amountYi": null,
+    "amountYi": 3.06852073,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -3.5265475636389656,
     "change": null,
-    "turnover": null
+    "turnover": 0.02245
   },
   {
     "date": "2025-11-24",
@@ -1592,11 +1592,11 @@
     "high": 56.352,
     "low": 54.022,
     "volume": 5871049,
-    "amountYi": null,
+    "amountYi": 3.27173734,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 4.119349810732574,
     "change": null,
-    "turnover": null
+    "turnover": 0.02346
   },
   {
     "date": "2025-11-25",
@@ -1605,11 +1605,11 @@
     "high": 58.102,
     "low": 56.032,
     "volume": 5240549,
-    "amountYi": null,
+    "amountYi": 3.01287528,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 1.871257485029935,
     "change": null,
-    "turnover": null
+    "turnover": 0.02094
   },
   {
     "date": "2025-11-26",
@@ -1618,11 +1618,11 @@
     "high": 58.352,
     "low": 56.362,
     "volume": 4264140,
-    "amountYi": null,
+    "amountYi": 2.4529581,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -0.0524824183898414,
     "change": null,
-    "turnover": null
+    "turnover": 0.01704
   },
   {
     "date": "2025-11-27",
@@ -1631,11 +1631,11 @@
     "high": 61.712,
     "low": 56.752,
     "volume": 12612009,
-    "amountYi": null,
+    "amountYi": 7.58829392,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 6.178673948050132,
     "change": null,
-    "turnover": null
+    "turnover": 0.0504
   },
   {
     "date": "2025-11-28",
@@ -1644,11 +1644,11 @@
     "high": 60.252,
     "low": 58.712,
     "volume": 6827897,
-    "amountYi": null,
+    "amountYi": 4.08116363,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -1.3352675480531506,
     "change": null,
-    "turnover": null
+    "turnover": 0.02729
   },
   {
     "date": "2025-12-01",
@@ -1657,11 +1657,11 @@
     "high": 61.432,
     "low": 59.662,
     "volume": 6686165,
-    "amountYi": null,
+    "amountYi": 4.04437272,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 1.1361358016440548,
     "change": null,
-    "turnover": null
+    "turnover": 0.02672
   },
   {
     "date": "2025-12-02",
@@ -1670,11 +1670,11 @@
     "high": 61.152,
     "low": 59.652,
     "volume": 4989852,
-    "amountYi": null,
+    "amountYi": 3.0177478,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -0.5616863807572793,
     "change": null,
-    "turnover": null
+    "turnover": 0.01994
   },
   {
     "date": "2025-12-03",
@@ -1683,11 +1683,11 @@
     "high": 60.032,
     "low": 58.552,
     "volume": 4909708,
-    "amountYi": null,
+    "amountYi": 2.91571901,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -2.2095959595959567,
     "change": null,
-    "turnover": null
+    "turnover": 0.01962
   },
   {
     "date": "2025-12-04",
@@ -1696,11 +1696,11 @@
     "high": 59.992,
     "low": 58.522,
     "volume": 4059284,
-    "amountYi": null,
+    "amountYi": 2.41209481,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 0.44171112092691045,
     "change": null,
-    "turnover": null
+    "turnover": 0.01622
   },
   {
     "date": "2025-12-05",
@@ -1709,11 +1709,11 @@
     "high": 62.152,
     "low": 58.752,
     "volume": 8872465,
-    "amountYi": null,
+    "amountYi": 5.39843505,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 3.822604106762285,
     "change": null,
-    "turnover": null
+    "turnover": 0.03546
   },
   {
     "date": "2025-12-08",
@@ -1722,11 +1722,11 @@
     "high": 62.342,
     "low": 61.272,
     "volume": 7550618,
-    "amountYi": null,
+    "amountYi": 4.67312619,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 0.4235769443810973,
     "change": null,
-    "turnover": null
+    "turnover": 0.03018
   },
   {
     "date": "2025-12-09",
@@ -1735,11 +1735,11 @@
     "high": 62.672,
     "low": 60.542,
     "volume": 6519267,
-    "amountYi": null,
+    "amountYi": 4.02201813,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -1.2815937185685184,
     "change": null,
-    "turnover": null
+    "turnover": 0.02605
   },
   {
     "date": "2025-12-10",
@@ -1748,11 +1748,11 @@
     "high": 60.242,
     "low": 57.542,
     "volume": 10881200,
-    "amountYi": null,
+    "amountYi": 6.39651151,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -2.4321304147768306,
     "change": null,
-    "turnover": null
+    "turnover": 0.04349
   },
   {
     "date": "2025-12-11",
@@ -1761,11 +1761,11 @@
     "high": 59.872,
     "low": 58.552,
     "volume": 5434413,
-    "amountYi": null,
+    "amountYi": 3.22616063,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -1.3811224146062122,
     "change": null,
-    "turnover": null
+    "turnover": 0.02172
   },
   {
     "date": "2025-12-12",
@@ -1774,37 +1774,37 @@
     "high": 67.182,
     "low": 57.762,
     "volume": 21080676,
-    "amountYi": null,
+    "amountYi": 13.32664977,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 12.945757617160824,
     "change": null,
-    "turnover": null
+    "turnover": 0.08425
   },
   {
     "date": "2025-12-15",
     "open": 65.162,
     "close": 64.102,
-    "high": 66.622,
+    "high": 66.621999999,
     "low": 64.052,
     "volume": 11746520,
-    "amountYi": null,
+    "amountYi": 7.6423601,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -3.0696183390794185,
     "change": null,
-    "turnover": null
+    "turnover": 0.04694
   },
   {
     "date": "2025-12-16",
     "open": 64.852,
     "close": 63.012,
-    "high": 65.422,
+    "high": 65.421999999,
     "low": 62.372,
     "volume": 7801980,
-    "amountYi": null,
+    "amountYi": 4.95799614,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -1.7004149636516852,
     "change": null,
-    "turnover": null
+    "turnover": 0.03118
   },
   {
     "date": "2025-12-17",
@@ -1813,11 +1813,11 @@
     "high": 63.612,
     "low": 60.852,
     "volume": 8502741,
-    "amountYi": null,
+    "amountYi": 5.2860734,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -0.5395797625849099,
     "change": null,
-    "turnover": null
+    "turnover": 0.03398
   },
   {
     "date": "2025-12-18",
@@ -1826,24 +1826,24 @@
     "high": 65.102,
     "low": 62.112,
     "volume": 12180379,
-    "amountYi": null,
+    "amountYi": 7.82407413,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 0.46272657646158777,
     "change": null,
-    "turnover": null
+    "turnover": 0.04868
   },
   {
     "date": "2025-12-19",
     "open": 62.962,
     "close": 62.212,
-    "high": 64.482,
+    "high": 64.481999999,
     "low": 61.992,
     "volume": 8453159,
-    "amountYi": null,
+    "amountYi": 5.3408515,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -1.1911946888599472,
     "change": null,
-    "turnover": null
+    "turnover": 0.03378
   },
   {
     "date": "2025-12-22",
@@ -1852,11 +1852,11 @@
     "high": 64.352,
     "low": 62.872,
     "volume": 7778795,
-    "amountYi": null,
+    "amountYi": 4.95959495,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 1.6717032083842331,
     "change": null,
-    "turnover": null
+    "turnover": 0.03109
   },
   {
     "date": "2025-12-23",
@@ -1865,11 +1865,11 @@
     "high": 63.552,
     "low": 61.302,
     "volume": 8469901,
-    "amountYi": null,
+    "amountYi": 5.2780539,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -2.023651426041866,
     "change": null,
-    "turnover": null
+    "turnover": 0.03385
   },
   {
     "date": "2025-12-24",
@@ -1878,24 +1878,24 @@
     "high": 63.572,
     "low": 61.522,
     "volume": 7125251,
-    "amountYi": null,
+    "amountYi": 4.47765732,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 2.2106757890660256,
     "change": null,
-    "turnover": null
+    "turnover": 0.02848
   },
   {
     "date": "2025-12-25",
     "open": 63.352,
-    "close": 66.172,
-    "high": 66.702,
+    "close": 66.171999999,
+    "high": 66.701999999,
     "low": 63.072,
     "volume": 12489450,
-    "amountYi": null,
+    "amountYi": 8.18259031,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 4.4678096665719345,
     "change": null,
-    "turnover": null
+    "turnover": 0.04991
   },
   {
     "date": "2025-12-26",
@@ -1904,37 +1904,37 @@
     "high": 70.032,
     "low": 66.012,
     "volume": 15725016,
-    "amountYi": null,
+    "amountYi": 10.79644334,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 2.9166414813352732,
     "change": null,
-    "turnover": null
+    "turnover": 0.06284
   },
   {
     "date": "2025-12-29",
     "open": 68.102,
     "close": 67.042,
     "high": 69.502,
-    "low": 66.622,
+    "low": 66.621999999,
     "volume": 10892630,
-    "amountYi": null,
+    "amountYi": 7.39449067,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -1.5564887962174419,
     "change": null,
-    "turnover": null
+    "turnover": 0.04353
   },
   {
     "date": "2025-12-30",
-    "open": 66.842,
+    "open": 66.841999999,
     "close": 66.662,
     "high": 68.182,
     "low": 66.522,
     "volume": 8668155,
-    "amountYi": null,
+    "amountYi": 5.83269092,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -0.5668088660839405,
     "change": null,
-    "turnover": null
+    "turnover": 0.03464
   },
   {
     "date": "2025-12-31",
@@ -1943,50 +1943,50 @@
     "high": 67.052,
     "low": 65.252,
     "volume": 9019408,
-    "amountYi": null,
+    "amountYi": 5.95428318,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -1.0500735051453645,
     "change": null,
-    "turnover": null
+    "turnover": 0.03605
   },
   {
     "date": "2026-01-05",
     "open": 67.272,
     "close": 68.762,
     "high": 70.032,
-    "low": 66.872,
+    "low": 66.871999999,
     "volume": 12795878,
-    "amountYi": null,
+    "amountYi": 8.78297473,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 4.244868257481576,
     "change": null,
-    "turnover": null
+    "turnover": 0.05114
   },
   {
     "date": "2026-01-06",
-    "open": 68.312,
-    "close": 68.452,
+    "open": 68.311999999,
+    "close": 68.451999999,
     "high": 69.212,
-    "low": 67.202,
+    "low": 67.201999999,
     "volume": 11658976,
-    "amountYi": null,
+    "amountYi": 7.95259525,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -0.4508304019662108,
     "change": null,
-    "turnover": null
+    "turnover": 0.0466
   },
   {
     "date": "2026-01-07",
     "open": 68.322,
     "close": 69.182,
     "high": 69.852,
-    "low": 67.452,
+    "low": 67.451999999,
     "volume": 10342329,
-    "amountYi": null,
+    "amountYi": 7.12899267,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 1.0664407190595921,
     "change": null,
-    "turnover": null
+    "turnover": 0.04133
   },
   {
     "date": "2026-01-08",
@@ -1995,11 +1995,11 @@
     "high": 72.622,
     "low": 68.602,
     "volume": 13945185,
-    "amountYi": null,
+    "amountYi": 9.9439759,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 3.208927177589545,
     "change": null,
-    "turnover": null
+    "turnover": 0.05573
   },
   {
     "date": "2026-01-09",
@@ -2008,11 +2008,11 @@
     "high": 74.852,
     "low": 70.852,
     "volume": 13523369,
-    "amountYi": null,
+    "amountYi": 9.96257774,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 4.817792218705355,
     "change": null,
-    "turnover": null
+    "turnover": 0.05405
   },
   {
     "date": "2026-01-12",
@@ -2021,11 +2021,11 @@
     "high": 80.432,
     "low": 76.352,
     "volume": 18517986,
-    "amountYi": null,
+    "amountYi": 14.49310539,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 2.819272600945992,
     "change": null,
-    "turnover": null
+    "turnover": 0.07401
   },
   {
     "date": "2026-01-13",
@@ -2034,11 +2034,11 @@
     "high": 75.852,
     "low": 71.402,
     "volume": 17149766,
-    "amountYi": null,
+    "amountYi": 12.53890885,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -5.8478012267387465,
     "change": null,
-    "turnover": null
+    "turnover": 0.06854
   },
   {
     "date": "2026-01-14",
@@ -2047,11 +2047,11 @@
     "high": 73.902,
     "low": 69.782,
     "volume": 14815416,
-    "amountYi": null,
+    "amountYi": 10.68084472,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -2.304974327830842,
     "change": null,
-    "turnover": null
+    "turnover": 0.05921
   },
   {
     "date": "2026-01-15",
@@ -2060,11 +2060,11 @@
     "high": 70.552,
     "low": 68.112,
     "volume": 9865730,
-    "amountYi": null,
+    "amountYi": 6.85290792,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -0.4944759967223225,
     "change": null,
-    "turnover": null
+    "turnover": 0.03943
   },
   {
     "date": "2026-01-16",
@@ -2073,11 +2073,11 @@
     "high": 73.542,
     "low": 70.552,
     "volume": 9715712,
-    "amountYi": null,
+    "amountYi": 7.0183709,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 3.805088596092675,
     "change": null,
-    "turnover": null
+    "turnover": 0.03883
   },
   {
     "date": "2026-01-19",
@@ -2086,11 +2086,11 @@
     "high": 73.632,
     "low": 71.462,
     "volume": 5430270,
-    "amountYi": null,
+    "amountYi": 3.94637921,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -1.025823394244447,
     "change": null,
-    "turnover": null
+    "turnover": 0.0217
   },
   {
     "date": "2026-01-20",
@@ -2099,11 +2099,11 @@
     "high": 72.752,
     "low": 69.042,
     "volume": 8124602,
-    "amountYi": null,
+    "amountYi": 5.71877307,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -3.6068654818827555,
     "change": null,
-    "turnover": null
+    "turnover": 0.03247
   },
   {
     "date": "2026-01-21",
@@ -2112,11 +2112,11 @@
     "high": 71.752,
     "low": 68.512,
     "volume": 6697020,
-    "amountYi": null,
+    "amountYi": 4.75104197,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 1.7920633100126162,
     "change": null,
-    "turnover": null
+    "turnover": 0.02676
   },
   {
     "date": "2026-01-22",
@@ -2125,11 +2125,11 @@
     "high": 72.292,
     "low": 69.992,
     "volume": 5828879,
-    "amountYi": null,
+    "amountYi": 4.13757525,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -0.8591307287118665,
     "change": null,
-    "turnover": null
+    "turnover": 0.0233
   },
   {
     "date": "2026-01-23",
@@ -2138,11 +2138,11 @@
     "high": 74.232,
     "low": 70.562,
     "volume": 10020134,
-    "amountYi": null,
+    "amountYi": 7.32306323,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 4.48914649391978,
     "change": null,
-    "turnover": null
+    "turnover": 0.04005
   },
   {
     "date": "2026-01-26",
@@ -2151,11 +2151,11 @@
     "high": 74.822,
     "low": 68.912,
     "volume": 10693607,
-    "amountYi": null,
+    "amountYi": 7.5929171,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -6.25407874700893,
     "change": null,
-    "turnover": null
+    "turnover": 0.04274
   },
   {
     "date": "2026-01-27",
@@ -2164,11 +2164,11 @@
     "high": 71.162,
     "low": 67.252,
     "volume": 7423928,
-    "amountYi": null,
+    "amountYi": 5.159593,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 2.973082724213942,
     "change": null,
-    "turnover": null
+    "turnover": 0.02967
   },
   {
     "date": "2026-01-28",
@@ -2177,37 +2177,37 @@
     "high": 71.642,
     "low": 68.852,
     "volume": 5826577,
-    "amountYi": null,
+    "amountYi": 4.07321186,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -2.042195994479013,
     "change": null,
-    "turnover": null
+    "turnover": 0.02329
   },
   {
     "date": "2026-01-29",
     "open": 68.962,
-    "close": 67.172,
+    "close": 67.171999999,
     "high": 70.122,
     "low": 66.912,
     "volume": 6957371,
-    "amountYi": null,
+    "amountYi": 4.75775025,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -3.421900162468388,
     "change": null,
-    "turnover": null
+    "turnover": 0.02781
   },
   {
     "date": "2026-01-30",
     "open": 67.002,
     "close": 67.212,
-    "high": 67.842,
+    "high": 67.841999999,
     "low": 64.602,
     "volume": 6698931,
-    "amountYi": null,
+    "amountYi": 4.46178771,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 0.059548622939030224,
     "change": null,
-    "turnover": null
+    "turnover": 0.02677
   },
   {
     "date": "2026-02-02",
@@ -2216,37 +2216,37 @@
     "high": 67.132,
     "low": 63.652,
     "volume": 6549454,
-    "amountYi": null,
+    "amountYi": 4.27895089,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -4.775932869130524,
     "change": null,
-    "turnover": null
+    "turnover": 0.02617
   },
   {
     "date": "2026-02-03",
-    "open": 64.872,
+    "open": 64.871999999,
     "close": 65.392,
     "high": 65.822,
     "low": 64.352,
     "volume": 5010417,
-    "amountYi": null,
+    "amountYi": 3.27584118,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 2.1718071310271565,
     "change": null,
-    "turnover": null
+    "turnover": 0.02002
   },
   {
     "date": "2026-02-04",
-    "open": 64.872,
+    "open": 64.871999999,
     "close": 64.032,
     "high": 65.212,
     "low": 63.092,
     "volume": 5236816,
-    "amountYi": null,
+    "amountYi": 3.35980996,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -2.0797651088818196,
     "change": null,
-    "turnover": null
+    "turnover": 0.02093
   },
   {
     "date": "2026-02-05",
@@ -2255,11 +2255,11 @@
     "high": 65.002,
     "low": 63.182,
     "volume": 4741405,
-    "amountYi": null,
+    "amountYi": 3.05198515,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 0.15617191404299183,
     "change": null,
-    "turnover": null
+    "turnover": 0.01895
   },
   {
     "date": "2026-02-06",
@@ -2268,11 +2268,11 @@
     "high": 64.652,
     "low": 62.922,
     "volume": 3609212,
-    "amountYi": null,
+    "amountYi": 2.31294704,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -0.1559283976797987,
     "change": null,
-    "turnover": null
+    "turnover": 0.01442
   },
   {
     "date": "2026-02-09",
@@ -2281,24 +2281,24 @@
     "high": 65.352,
     "low": 64.512,
     "volume": 3563833,
-    "amountYi": null,
+    "amountYi": 2.32045892,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 1.686656671664165,
     "change": null,
-    "turnover": null
+    "turnover": 0.01424
   },
   {
     "date": "2026-02-10",
     "open": 65.262,
     "close": 64.892,
-    "high": 65.952,
+    "high": 65.951999999,
     "low": 64.852,
     "volume": 3545072,
-    "amountYi": null,
+    "amountYi": 2.31654297,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -0.3378793463570446,
     "change": null,
-    "turnover": null
+    "turnover": 0.01417
   },
   {
     "date": "2026-02-11",
@@ -2307,11 +2307,11 @@
     "high": 65.142,
     "low": 64.052,
     "volume": 2974220,
-    "amountYi": null,
+    "amountYi": 1.92268316,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -1.1711767244036104,
     "change": null,
-    "turnover": null
+    "turnover": 0.01189
   },
   {
     "date": "2026-02-12",
@@ -2320,37 +2320,37 @@
     "high": 66.392,
     "low": 63.862,
     "volume": 5537594,
-    "amountYi": null,
+    "amountYi": 3.63430623,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 2.806711158236133,
     "change": null,
-    "turnover": null
+    "turnover": 0.02213
   },
   {
     "date": "2026-02-13",
     "open": 65.652,
     "close": 64.882,
     "high": 66.132,
-    "low": 64.872,
+    "low": 64.871999999,
     "volume": 2990634,
-    "amountYi": null,
+    "amountYi": 1.96494635,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -1.5925498998968592,
     "change": null,
-    "turnover": null
+    "turnover": 0.01195
   },
   {
     "date": "2026-02-24",
     "open": 66.002,
-    "close": 65.982,
+    "close": 65.981999999,
     "high": 67.042,
-    "low": 64.732,
+    "low": 64.731999999,
     "volume": 3858657,
-    "amountYi": null,
+    "amountYi": 2.54961324,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 1.695385467463997,
     "change": null,
-    "turnover": null
+    "turnover": 0.01542
   },
   {
     "date": "2026-02-25",
@@ -2359,11 +2359,11 @@
     "high": 67.502,
     "low": 65.352,
     "volume": 4771993,
-    "amountYi": null,
+    "amountYi": 3.18588555,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 1.5761874466002423,
     "change": null,
-    "turnover": null
+    "turnover": 0.01907
   },
   {
     "date": "2026-02-26",
@@ -2372,11 +2372,11 @@
     "high": 67.152,
     "low": 64.912,
     "volume": 6202156,
-    "amountYi": null,
+    "amountYi": 4.10172446,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -0.23872758198802005,
     "change": null,
-    "turnover": null
+    "turnover": 0.02479
   },
   {
     "date": "2026-02-27",
@@ -2385,11 +2385,11 @@
     "high": 66.852,
     "low": 65.512,
     "volume": 3937432,
-    "amountYi": null,
+    "amountYi": 2.61431482,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -0.7029403846729068,
     "change": null,
-    "turnover": null
+    "turnover": 0.01574
   },
   {
     "date": "2026-03-02",
@@ -2398,11 +2398,11 @@
     "high": 66.332,
     "low": 62.872,
     "volume": 8182192,
-    "amountYi": null,
+    "amountYi": 5.27377222,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -4.9554163152187,
     "change": null,
-    "turnover": null
+    "turnover": 0.0327
   },
   {
     "date": "2026-03-03",
@@ -2411,11 +2411,11 @@
     "high": 63.712,
     "low": 59.362,
     "volume": 7997334,
-    "amountYi": null,
+    "amountYi": 4.88668075,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -5.6416595353554495,
     "change": null,
-    "turnover": null
+    "turnover": 0.03196
   },
   {
     "date": "2026-03-04",
@@ -2424,11 +2424,11 @@
     "high": 60.292,
     "low": 58.352,
     "volume": 6206646,
-    "amountYi": null,
+    "amountYi": 3.69157573,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -1.3267945315911442,
     "change": null,
-    "turnover": null
+    "turnover": 0.0248
   },
   {
     "date": "2026-03-05",
@@ -2437,24 +2437,24 @@
     "high": 61.382,
     "low": 59.242,
     "volume": 5045545,
-    "amountYi": null,
+    "amountYi": 3.0426151,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 1.7190904139433516,
     "change": null,
-    "turnover": null
+    "turnover": 0.02016
   },
   {
     "date": "2026-03-06",
     "open": 59.422,
-    "close": 64.372,
+    "close": 64.371999999,
     "high": 65.722,
     "low": 59.162,
     "volume": 11010132,
-    "amountYi": null,
+    "amountYi": 7.05803669,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 7.713931928315645,
     "change": null,
-    "turnover": null
+    "turnover": 0.044
   },
   {
     "date": "2026-03-09",
@@ -2463,50 +2463,50 @@
     "high": 65.652,
     "low": 62.912,
     "volume": 7410410,
-    "amountYi": null,
+    "amountYi": 4.77821665,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 1.8330951361125045,
     "change": null,
-    "turnover": null
+    "turnover": 0.02962
   },
   {
     "date": "2026-03-10",
-    "open": 66.122,
-    "close": 66.982,
+    "open": 66.121999999,
+    "close": 66.981999999,
     "high": 67.282,
     "low": 65.272,
     "volume": 6910920,
-    "amountYi": null,
+    "amountYi": 4.61272239,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 2.181474247925294,
     "change": null,
-    "turnover": null
+    "turnover": 0.02762
   },
   {
     "date": "2026-03-11",
     "open": 66.692,
     "close": 65.902,
-    "high": 67.812,
+    "high": 67.811999999,
     "low": 65.832,
     "volume": 4820195,
-    "amountYi": null,
+    "amountYi": 3.2193133,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -1.6123734720016099,
     "change": null,
-    "turnover": null
+    "turnover": 0.01926
   },
   {
     "date": "2026-03-12",
-    "open": 65.672,
+    "open": 65.671999999,
     "close": 63.942,
     "high": 66.052,
     "low": 63.492,
     "volume": 4254778,
-    "amountYi": null,
+    "amountYi": 2.74588759,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -2.9741130769931123,
     "change": null,
-    "turnover": null
+    "turnover": 0.017
   },
   {
     "date": "2026-03-13",
@@ -2515,11 +2515,11 @@
     "high": 63.832,
     "low": 61.672,
     "volume": 4088065,
-    "amountYi": null,
+    "amountYi": 2.55814374,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -3.2529479841105977,
     "change": null,
-    "turnover": null
+    "turnover": 0.01634
   },
   {
     "date": "2026-03-16",
@@ -2528,11 +2528,11 @@
     "high": 62.102,
     "low": 60.462,
     "volume": 3117896,
-    "amountYi": null,
+    "amountYi": 1.9164502,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 0.032330024894112734,
     "change": null,
-    "turnover": null
+    "turnover": 0.01246
   },
   {
     "date": "2026-03-17",
@@ -2541,11 +2541,11 @@
     "high": 63.112,
     "low": 59.952,
     "volume": 3232676,
-    "amountYi": null,
+    "amountYi": 1.98137977,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -2.698684593258128,
     "change": null,
-    "turnover": null
+    "turnover": 0.01292
   },
   {
     "date": "2026-03-18",
@@ -2554,11 +2554,11 @@
     "high": 61.542,
     "low": 60.142,
     "volume": 2651686,
-    "amountYi": null,
+    "amountYi": 1.61739114,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 1.8102703779977352,
     "change": null,
-    "turnover": null
+    "turnover": 0.0106
   },
   {
     "date": "2026-03-19",
@@ -2567,11 +2567,11 @@
     "high": 60.832,
     "low": 59.532,
     "volume": 3464618,
-    "amountYi": null,
+    "amountYi": 2.0856474,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -2.3164007699585687,
     "change": null,
-    "turnover": null
+    "turnover": 0.01385
   },
   {
     "date": "2026-03-20",
@@ -2580,11 +2580,11 @@
     "high": 60.572,
     "low": 58.852,
     "volume": 3375952,
-    "amountYi": null,
+    "amountYi": 2.01768377,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -1.720049430546744,
     "change": null,
-    "turnover": null
+    "turnover": 0.01349
   },
   {
     "date": "2026-03-23",
@@ -2593,11 +2593,11 @@
     "high": 58.722,
     "low": 55.392,
     "volume": 4729815,
-    "amountYi": null,
+    "amountYi": 2.69410813,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -4.927615034323385,
     "change": null,
-    "turnover": null
+    "turnover": 0.0189
   },
   {
     "date": "2026-03-24",
@@ -2606,11 +2606,11 @@
     "high": 57.132,
     "low": 55.592,
     "volume": 3121778,
-    "amountYi": null,
+    "amountYi": 1.76182386,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 1.8229911352587989,
     "change": null,
-    "turnover": null
+    "turnover": 0.01248
   },
   {
     "date": "2026-03-25",
@@ -2619,11 +2619,11 @@
     "high": 58.972,
     "low": 57.172,
     "volume": 3565631,
-    "amountYi": null,
+    "amountYi": 2.08800125,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 3.1418942638489065,
     "change": null,
-    "turnover": null
+    "turnover": 0.01425
   },
   {
     "date": "2026-03-26",
@@ -2632,11 +2632,11 @@
     "high": 58.752,
     "low": 56.442,
     "volume": 3212270,
-    "amountYi": null,
+    "amountYi": 1.84820394,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -3.760933936897997,
     "change": null,
-    "turnover": null
+    "turnover": 0.01284
   },
   {
     "date": "2026-03-27",
@@ -2645,11 +2645,11 @@
     "high": 57.512,
     "low": 55.602,
     "volume": 2138153,
-    "amountYi": null,
+    "amountYi": 1.21783845,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 1.1670674777196275,
     "change": null,
-    "turnover": null
+    "turnover": 0.00855
   },
   {
     "date": "2026-03-30",
@@ -2658,11 +2658,11 @@
     "high": 57.262,
     "low": 55.632,
     "volume": 2122869,
-    "amountYi": null,
+    "amountYi": 1.2039053,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -0.06991540236315152,
     "change": null,
-    "turnover": null
+    "turnover": 0.00848
   },
   {
     "date": "2026-03-31",
@@ -2671,11 +2671,11 @@
     "high": 59.072,
     "low": 56.882,
     "volume": 2886807,
-    "amountYi": null,
+    "amountYi": 1.68303993,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 0.3498215909886008,
     "change": null,
-    "turnover": null
+    "turnover": 0.01154
   },
   {
     "date": "2026-04-01",
@@ -2684,11 +2684,11 @@
     "high": 58.852,
     "low": 57.652,
     "volume": 2448101,
-    "amountYi": null,
+    "amountYi": 1.42948357,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 1.7430105277835877,
     "change": null,
-    "turnover": null
+    "turnover": 0.00978
   },
   {
     "date": "2026-04-02",
@@ -2697,11 +2697,11 @@
     "high": 58.262,
     "low": 56.652,
     "volume": 2183267,
-    "amountYi": null,
+    "amountYi": 1.25587428,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -2.0729116699787586,
     "change": null,
-    "turnover": null
+    "turnover": 0.00873
   },
   {
     "date": "2026-04-03",
@@ -2710,11 +2710,11 @@
     "high": 60.352,
     "low": 56.652,
     "volume": 6129635,
-    "amountYi": null,
+    "amountYi": 3.64235368,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 5.265735978447217,
     "change": null,
-    "turnover": null
+    "turnover": 0.0245
   },
   {
     "date": "2026-04-07",
@@ -2723,11 +2723,11 @@
     "high": 60.842,
     "low": 58.852,
     "volume": 4913828,
-    "amountYi": null,
+    "amountYi": 2.93582954,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -1.6452835205743452,
     "change": null,
-    "turnover": null
+    "turnover": 0.01964
   },
   {
     "date": "2026-04-08",
@@ -2736,11 +2736,11 @@
     "high": 61.642,
     "low": 60.452,
     "volume": 4793106,
-    "amountYi": null,
+    "amountYi": 2.94105338,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 4.105978169037883,
     "change": null,
-    "turnover": null
+    "turnover": 0.01916
   },
   {
     "date": "2026-04-09",
@@ -2749,11 +2749,11 @@
     "high": 63.272,
     "low": 60.712,
     "volume": 5099862,
-    "amountYi": null,
+    "amountYi": 3.18618625,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 1.4445237940660918,
     "change": null,
-    "turnover": null
+    "turnover": 0.02038
   },
   {
     "date": "2026-04-10",
@@ -2762,11 +2762,11 @@
     "high": 63.232,
     "low": 61.762,
     "volume": 4525990,
-    "amountYi": null,
+    "amountYi": 2.83862166,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -0.8959713289174782,
     "change": null,
-    "turnover": null
+    "turnover": 0.01809
   },
   {
     "date": "2026-04-13",
@@ -2775,11 +2775,11 @@
     "high": 62.652,
     "low": 61.062,
     "volume": 3874146,
-    "amountYi": null,
+    "amountYi": 2.39627528,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -1.1139453036711726,
     "change": null,
-    "turnover": null
+    "turnover": 0.01548
   },
   {
     "date": "2026-04-14",
@@ -2788,11 +2788,11 @@
     "high": 62.262,
     "low": 60.932,
     "volume": 5037810,
-    "amountYi": null,
+    "amountYi": 3.11029661,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 1.061189838699142,
     "change": null,
-    "turnover": null
+    "turnover": 0.02013
   },
   {
     "date": "2026-04-15",
@@ -2801,11 +2801,11 @@
     "high": 62.722,
     "low": 60.972,
     "volume": 3772018,
-    "amountYi": null,
+    "amountYi": 2.3401514,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -1.2600562178928,
     "change": null,
-    "turnover": null
+    "turnover": 0.01507
   },
   {
     "date": "2026-04-16",
@@ -2814,11 +2814,11 @@
     "high": 61.722,
     "low": 60.762,
     "volume": 3929932,
-    "amountYi": null,
+    "amountYi": 2.41297202,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 0.8180360590294821,
     "change": null,
-    "turnover": null
+    "turnover": 0.01571
   },
   {
     "date": "2026-04-17",
@@ -2827,24 +2827,24 @@
     "high": 64.712,
     "low": 60.902,
     "volume": 7629619,
-    "amountYi": null,
+    "amountYi": 4.79041385,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 3.586381487131221,
     "change": null,
-    "turnover": null
+    "turnover": 0.03049
   },
   {
     "date": "2026-04-20",
     "open": 64.082,
     "close": 62.882,
-    "high": 64.232,
+    "high": 64.231999999,
     "low": 62.732,
     "volume": 5969520,
-    "amountYi": null,
+    "amountYi": 3.7919643,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -1.4882817395663661,
     "change": null,
-    "turnover": null
+    "turnover": 0.02386
   },
   {
     "date": "2026-04-21",
@@ -2853,11 +2853,11 @@
     "high": 63.232,
     "low": 61.232,
     "volume": 4822079,
-    "amountYi": null,
+    "amountYi": 2.99303327,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -1.4630577907827274,
     "change": null,
-    "turnover": null
+    "turnover": 0.01927
   },
   {
     "date": "2026-04-22",
@@ -2866,11 +2866,11 @@
     "high": 63.222,
     "low": 61.362,
     "volume": 7392826,
-    "amountYi": null,
+    "amountYi": 4.61273856,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 1.8721151673606347,
     "change": null,
-    "turnover": null
+    "turnover": 0.02955
   },
   {
     "date": "2026-04-23",
@@ -2879,11 +2879,11 @@
     "high": 63.862,
     "low": 61.272,
     "volume": 6923330,
-    "amountYi": null,
+    "amountYi": 4.34242057,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -1.9486074585722837,
     "change": null,
-    "turnover": null
+    "turnover": 0.02767
   },
   {
     "date": "2026-04-24",
@@ -2892,11 +2892,11 @@
     "high": 56.722,
     "low": 53.532,
     "volume": 18360208,
-    "amountYi": null,
+    "amountYi": 10.07142459,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -13.4750856330382,
     "change": null,
-    "turnover": null
+    "turnover": 0.07338
   },
   {
     "date": "2026-04-27",
@@ -2905,11 +2905,11 @@
     "high": 54.102,
     "low": 52.472,
     "volume": 8352544,
-    "amountYi": null,
+    "amountYi": 4.465802,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -0.6348969226172623,
     "change": null,
-    "turnover": null
+    "turnover": 0.03338
   },
   {
     "date": "2026-04-28",
@@ -2918,11 +2918,11 @@
     "high": 53.172,
     "low": 50.672,
     "volume": 7729760,
-    "amountYi": null,
+    "amountYi": 3.99989609,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -4.115613019619643,
     "change": null,
-    "turnover": null
+    "turnover": 0.03089
   },
   {
     "date": "2026-04-29",
@@ -2931,11 +2931,11 @@
     "high": 51.552,
     "low": 50.652,
     "volume": 4082634,
-    "amountYi": null,
+    "amountYi": 2.09964804,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 0.07839755399631365,
     "change": null,
-    "turnover": null
+    "turnover": 0.01632
   },
   {
     "date": "2026-04-30",
@@ -2944,11 +2944,11 @@
     "high": 51.57,
     "low": 49.9,
     "volume": 6049070,
-    "amountYi": null,
+    "amountYi": 3.05353806,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -0.6110218949512312,
     "change": null,
-    "turnover": null
+    "turnover": 0.02418
   },
   {
     "date": "2026-05-06",
@@ -2957,11 +2957,11 @@
     "high": 54.25,
     "low": 51.6,
     "volume": 8331295,
-    "amountYi": null,
+    "amountYi": 4.42697833,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 3.743842364532017,
     "change": null,
-    "turnover": null
+    "turnover": 0.0333
   },
   {
     "date": "2026-05-07",
@@ -2970,11 +2970,11 @@
     "high": 55.09,
     "low": 52.86,
     "volume": 7423859,
-    "amountYi": null,
+    "amountYi": 4.01923191,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 4.558404558404556,
     "change": null,
-    "turnover": null
+    "turnover": 0.02967
   },
   {
     "date": "2026-05-08",
@@ -2983,11 +2983,11 @@
     "high": 55.68,
     "low": 54.35,
     "volume": 5117051,
-    "amountYi": null,
+    "amountYi": 2.81881786,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 0,
     "change": null,
-    "turnover": null
+    "turnover": 0.02045
   },
   {
     "date": "2026-05-11",
@@ -2996,11 +2996,11 @@
     "high": 56.31,
     "low": 54.59,
     "volume": 6193437,
-    "amountYi": null,
+    "amountYi": 3.419262,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -0.4541326067211626,
     "change": null,
-    "turnover": null
+    "turnover": 0.02475
   },
   {
     "date": "2026-05-12",
@@ -3009,11 +3009,11 @@
     "high": 55.36,
     "low": 53.6,
     "volume": 5786636,
-    "amountYi": null,
+    "amountYi": 3.14427272,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -1.3686131386861315,
     "change": null,
-    "turnover": null
+    "turnover": 0.02313
   },
   {
     "date": "2026-05-13",
@@ -3022,11 +3022,11 @@
     "high": 55.48,
     "low": 53.21,
     "volume": 6332773,
-    "amountYi": null,
+    "amountYi": 3.46353499,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 1.998149861239603,
     "change": null,
-    "turnover": null
+    "turnover": 0.02531
   },
   {
     "date": "2026-05-14",
@@ -3035,11 +3035,11 @@
     "high": 55.77,
     "low": 54.2,
     "volume": 6061833,
-    "amountYi": null,
+    "amountYi": 3.33062214,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -0.5985851623435613,
     "change": null,
-    "turnover": null
+    "turnover": 0.02423
   },
   {
     "date": "2026-05-15",
@@ -3048,11 +3048,11 @@
     "high": 55.76,
     "low": 53.55,
     "volume": 6771903,
-    "amountYi": null,
+    "amountYi": 3.69338349,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -1.751824817518237,
     "change": null,
-    "turnover": null
+    "turnover": 0.02706
   },
   {
     "date": "2026-05-18",
@@ -3061,11 +3061,11 @@
     "high": 54.14,
     "low": 52.53,
     "volume": 6222679,
-    "amountYi": null,
+    "amountYi": 3.31064318,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -1.5973254086181399,
     "change": null,
-    "turnover": null
+    "turnover": 0.02487
   },
   {
     "date": "2026-05-19",
@@ -3074,11 +3074,11 @@
     "high": 54.18,
     "low": 52.11,
     "volume": 5749494,
-    "amountYi": null,
+    "amountYi": 3.0629527,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 2.0762551906379794,
     "change": null,
-    "turnover": null
+    "turnover": 0.02298
   },
   {
     "date": "2026-05-20",
@@ -3087,11 +3087,11 @@
     "high": 54.56,
     "low": 52.97,
     "volume": 5261860,
-    "amountYi": null,
+    "amountYi": 2.82462819,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 0.03698224852071584,
     "change": null,
-    "turnover": null
+    "turnover": 0.02103
   },
   {
     "date": "2026-05-21",
@@ -3100,11 +3100,11 @@
     "high": 55.37,
     "low": 51.13,
     "volume": 7688050,
-    "amountYi": null,
+    "amountYi": 4.09613911,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -5.415896487985212,
     "change": null,
-    "turnover": null
+    "turnover": 0.03073
   },
   {
     "date": "2026-05-22",
@@ -3113,11 +3113,11 @@
     "high": 53.13,
     "low": 51.02,
     "volume": 6103664,
-    "amountYi": null,
+    "amountYi": 3.18253686,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 3.009575923392611,
     "change": null,
-    "turnover": null
+    "turnover": 0.02439
   },
   {
     "date": "2026-05-25",
@@ -3126,11 +3126,11 @@
     "high": 57.57,
     "low": 52.75,
     "volume": 11260011,
-    "amountYi": null,
+    "amountYi": 6.25433262,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 8.138873079112122,
     "change": null,
-    "turnover": null
+    "turnover": 0.045
   },
   {
     "date": "2026-05-26",
@@ -3139,11 +3139,11 @@
     "high": 57.26,
     "low": 53.84,
     "volume": 8319016,
-    "amountYi": null,
+    "amountYi": 4.5768897,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -4.140350877192982,
     "change": null,
-    "turnover": null
+    "turnover": 0.03325
   },
   {
     "date": "2026-05-27",
@@ -3152,11 +3152,11 @@
     "high": 56,
     "low": 52.12,
     "volume": 7599948,
-    "amountYi": null,
+    "amountYi": 4.10196612,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -4.337481698389454,
     "change": null,
-    "turnover": null
+    "turnover": 0.03037
   },
   {
     "date": "2026-05-28",
@@ -3165,11 +3165,11 @@
     "high": 52.88,
     "low": 51.39,
     "volume": 5709068,
-    "amountYi": null,
+    "amountYi": 2.97910614,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 0.8226516166060831,
     "change": null,
-    "turnover": null
+    "turnover": 0.02282
   },
   {
     "date": "2026-05-29",
@@ -3178,11 +3178,11 @@
     "high": 54.07,
     "low": 48.22,
     "volume": 10170686,
-    "amountYi": null,
+    "amountYi": 5.13950312,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -7.590132827324478,
     "change": null,
-    "turnover": null
+    "turnover": 0.04065
   },
   {
     "date": "2026-06-01",
@@ -3191,11 +3191,11 @@
     "high": 49.14,
     "low": 46.8,
     "volume": 6300350,
-    "amountYi": null,
+    "amountYi": 3.01534494,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -3.9014373716632558,
     "change": null,
-    "turnover": null
+    "turnover": 0.02518
   },
   {
     "date": "2026-06-02",
@@ -3204,11 +3204,11 @@
     "high": 47.18,
     "low": 45.16,
     "volume": 5074553,
-    "amountYi": null,
+    "amountYi": 2.33006973,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -1.388888888888886,
     "change": null,
-    "turnover": null
+    "turnover": 0.02028
   },
   {
     "date": "2026-06-03",
@@ -3217,11 +3217,11 @@
     "high": 47.07,
     "low": 43.21,
     "volume": 8612424,
-    "amountYi": null,
+    "amountYi": 3.89060687,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -2.2318526543878683,
     "change": null,
-    "turnover": null
+    "turnover": 0.03442
   },
   {
     "date": "2026-06-04",
@@ -3230,11 +3230,11 @@
     "high": 47.5,
     "low": 44.41,
     "volume": 5994489,
-    "amountYi": null,
+    "amountYi": 2.7544184,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 1.8173758865248235,
     "change": null,
-    "turnover": null
+    "turnover": 0.02396
   },
   {
     "date": "2026-06-05",
@@ -3243,11 +3243,11 @@
     "high": 48.47,
     "low": 44.2,
     "volume": 8545505,
-    "amountYi": null,
+    "amountYi": 3.99051704,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 3.5045711797997376,
     "change": null,
-    "turnover": null
+    "turnover": 0.03415
   },
   {
     "date": "2026-06-08",
@@ -3256,11 +3256,11 @@
     "high": 48.39,
     "low": 46,
     "volume": 7172755,
-    "amountYi": null,
+    "amountYi": 3.37800606,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -2.4185068349106174,
     "change": null,
-    "turnover": null
+    "turnover": 0.02867
   },
   {
     "date": "2026-06-09",
@@ -3269,11 +3269,11 @@
     "high": 48.1,
     "low": 46.06,
     "volume": 5878147,
-    "amountYi": null,
+    "amountYi": 2.7544061,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 1.7241379310344922,
     "change": null,
-    "turnover": null
+    "turnover": 0.02349
   },
   {
     "date": "2026-06-10",
@@ -3282,11 +3282,11 @@
     "high": 49.5,
     "low": 46.52,
     "volume": 6707897,
-    "amountYi": null,
+    "amountYi": 3.22782767,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 2.0127118644067705,
     "change": null,
-    "turnover": null
+    "turnover": 0.02681
   },
   {
     "date": "2026-06-11",
@@ -3295,11 +3295,11 @@
     "high": 52.82,
     "low": 47.6,
     "volume": 10405724,
-    "amountYi": null,
+    "amountYi": 5.28340748,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 4.402907580477684,
     "change": null,
-    "turnover": null
+    "turnover": 0.04159
   },
   {
     "date": "2026-06-12",
@@ -3308,11 +3308,11 @@
     "high": 53.3,
     "low": 51.16,
     "volume": 9321386,
-    "amountYi": null,
+    "amountYi": 4.8608664,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 2.94410185000994,
     "change": null,
-    "turnover": null
+    "turnover": 0.03725
   },
   {
     "date": "2026-06-15",
@@ -3321,11 +3321,11 @@
     "high": 54.89,
     "low": 51.51,
     "volume": 9999942,
-    "amountYi": null,
+    "amountYi": 5.34685317,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 5.700483091787445,
     "change": null,
-    "turnover": null
+    "turnover": 0.03996
   },
   {
     "date": "2026-06-16",
@@ -3334,11 +3334,11 @@
     "high": 57.18,
     "low": 54.11,
     "volume": 10486314,
-    "amountYi": null,
+    "amountYi": 5.80529936,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 4.387568555758681,
     "change": null,
-    "turnover": null
+    "turnover": 0.04191
   },
   {
     "date": "2026-06-17",
@@ -3347,11 +3347,11 @@
     "high": 62.26,
     "low": 56.22,
     "volume": 14041525,
-    "amountYi": null,
+    "amountYi": 8.40244083,
     "amplitude": null,
-    "changePct": null,
+    "changePct": 6.409807355516631,
     "change": null,
-    "turnover": null
+    "turnover": 0.05612
   },
   {
     "date": "2026-06-18",
@@ -3360,11 +3360,11 @@
     "high": 62,
     "low": 59.8,
     "volume": 9782452,
-    "amountYi": null,
+    "amountYi": 5.96878033,
     "amplitude": null,
-    "changePct": null,
+    "changePct": -0.4279131007241574,
     "change": null,
-    "turnover": null
+    "turnover": 0.0391
   },
   {
     "date": "2026-06-22",
@@ -3373,11 +3373,11 @@
     "high": 62.2,
     "low": 58.75,
     "volume": 12684794,
-    "amountYi": 7.6624,
-    "changePct": 0.03,
-    "change": 0.02,
-    "turnover": 5.07,
-    "marketCapYi": 243.13,
-    "peTtm": 92.94
+    "amountYi": 7.66237147,
+    "changePct": 0.03305785123967459,
+    "change": 0.020000000000003126,
+    "turnover": 5.069,
+    "marketCapYi": 0,
+    "peTtm": 0
   }
 ]

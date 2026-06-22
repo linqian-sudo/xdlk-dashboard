@@ -2,11 +2,12 @@
 
 这是一个多标的 A 股自选股网页看板，用于跟踪行情、图表走势、关键点信号和风险预警。
 
-线上看板使用 GitHub Pages 发布，数据通过 GitHub Actions 在交易日收盘后自动更新。
+线上看板使用 GitHub Pages 发布，数据通过 GitHub Actions 在交易日收盘后自动更新。本地更新时会优先尝试连接富途 OpenD，无法连接时自动切换到公开行情兜底。
 
 ## 功能
 
 - 多标的自选股列表：股票代码、名称、主题、关注理由。
+- 网页添加/删除自选股：操作保存在当前浏览器，适合临时观察和个人跟踪。
 - 每日行情快照：最新价、涨跌幅、市值、PE、PB、成交额、换手率。
 - 图表走势：收盘价、MA10、MA20，最多保留约 260 个交易日。
 - 趋势分析：5 日/20 日涨跌、20 日关键区间、量能相对 20 日均量。
@@ -20,12 +21,13 @@
 - `assets/styles.css`：页面样式。
 - `data/watchlist.json`：自选股配置。
 - `data/watchlist-data.json`：自动生成的行情、K 线、分析和预警数据。
-- `scripts/update-market-data.mjs`：批量更新腾讯行情快照和腾讯日 K 线；东方财富 K 线作为备用源。
+- `scripts/update-market-data.mjs`：批量更新行情与日 K 线，优先使用富途 OpenD，公开行情作为备用源。
+- `scripts/futu_fetch_watchlist.py`：富途 OpenD 数据抓取助手，默认连接 `127.0.0.1:11111`。
 - `.github/workflows/update-market-data.yml`：交易日自动更新，也支持手动触发。
 
 ## 添加标的
 
-在 `data/watchlist.json` 中增加一项：
+短期观察可以直接在网页里添加或删除，浏览器会自动保存。需要跨设备同步、让每日脚本自动补齐行情时，在 `data/watchlist.json` 中增加一项：
 
 ```json
 {
@@ -49,9 +51,17 @@
 
 ## 本地更新
 
+先确认富途 OpenD 已启动，并监听默认端口 `127.0.0.1:11111`。然后执行：
+
 ```bash
 node scripts/update-market-data.mjs
 ```
+
+如果 OpenD 没有启动，脚本会提示跳过富途源并使用公开行情兜底。
+
+## 左上角米法图片
+
+页面会优先读取 `assets/mipha.jpg`。当前仓库内放置的是可发布的占位头像；如果你有授权图片，把图片保存为 `assets/mipha.jpg` 后即可在页面左上角显示。
 
 ## 风险提示
 
